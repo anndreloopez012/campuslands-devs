@@ -96,3 +96,9 @@ FRANCOTIRADORES (2):
  - Marshal | Balas: 35 | Rareza: rara [RECOMENDADA]
 ```
 
+# Evidencia de comit
+
+Author: ixenbrandonestiben-lang <ixenbrandonestiben@gmail.com>
+Date:   Wed May 27 15:21:17 2026 -0600
+
+    :sparkles :feat ejercicio número dos del epartado de logica
