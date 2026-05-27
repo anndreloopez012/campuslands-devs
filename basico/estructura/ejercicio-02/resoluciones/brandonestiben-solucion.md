@@ -50,5 +50,7 @@ para poder organizarlo d un amejor manera en este apartado creé carpetas usando
     girt branch para ver la rama en la que esta hubicado
     git checkout para cambiar de rama.
     git push para mandar los cambios a la rama principal y al repositorio
+    git log, para ver el historial de commits
+    
 
 --
