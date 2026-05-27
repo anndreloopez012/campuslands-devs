@@ -55,8 +55,11 @@ git status
 
 **Evidencia de salida en terminal:**
 ```text
-En la rama feature/brandonestibenixenteleguario
-nada para hacer commit, el árbol de trabajo está limpio
+HEAD desacoplada de 7eedd2e
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+        nuevos archivos: basico/git/ejercicio-02/resoluciones/brandon-ixen.md
+
 ```
 
 ---
@@ -71,14 +74,15 @@ git log --oneline -n 3
 
 **Evidencia de salida en terminal:**
 ```text
-bcd17b9 (HEAD -> feature/brandonestibenixenteleguario) realizacion de el ejercicio numero dos del apartado de estructura
-a1b2c3d (origin/dev, dev) Setup inicial de la base de datos del torneo RPG
+afb72f8 (HEAD, origin/feature/brandonestibenixenteleguario) :sparkles: feat ejercicio dos del apartado de git
+
 ```
 
 ---
 
 ## 4. Conclusiones de la Exploración Inicial
 
-* **Identificación del problema resuelto:** El comando `git clone` resuelve el problema de la distribución de código, permitiendo que múltiples desarrolladores tengan una copia exacta de la historia del videojuego sin pisarse el trabajo. 
+* **Identificación del problema resuelto:** El comando `git clone` resuelve el problema y asi cada desarrollador podra tener una copia sin afectar el repositorio padre.
 
-* **Importancia de `git status`:** Actúa como el "minimapa" del desarrollador. Evita el error crítico de realizar contribuciones en ramas protegidas como `main`, asegurando que el despliegue del Torneo RPG se mantenga estable.
+* **Importancia de `git status`:** Este comando permite ver el estado de los archivos, si tienen cambios realizados y asi poder evitar confuciones y problemas.
+
