@@ -12,7 +12,7 @@ videojuegos shooters
 
 Vas a simular una situación de trabajo colaborativo relacionada con videojuegos shooters. Lo importante no es memorizar comandos, sino entender qué problema resuelve cada acción de Git.
 
-Este ejercicio está diseñado para que practiques análisis, orden y toma de decisiones. Aunque pertenece al nivel básico, debes tratarlo como una tarea real: leer requisitos, transformar información en una solución y validar el resultado.
+Este ejercicio está diseñado para que practiques análisis, orden y toma de decisiones. Aunque pertenece al nivel básico, debes tratarlo como una tarea real: leer requisitos, transformar información en una solución y validar el resultado.s
 
 ## Objetivo
 
