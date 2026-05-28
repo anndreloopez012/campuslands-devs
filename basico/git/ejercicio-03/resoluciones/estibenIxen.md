@@ -45,5 +45,5 @@ A continuación, se detalla el paso a paso técnico ejecutado en la terminal del
 *  cd resoluciones
 *  touch estibenIxen.md
 *  history
-
+*  git push -u origin estibenixen-ejercicio-03
 ---
