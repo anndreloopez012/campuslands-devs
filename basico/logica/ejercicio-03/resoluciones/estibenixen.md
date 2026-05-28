@@ -100,3 +100,9 @@ generarReporteParty(party);
   735  git add .
   736  git status
   737  history
+
+ # commit
+    camper@campus-H610M-K-V2:~/Documentos/shen/ejercicio/campuslands-devs-1$ git commit -m ":sparkles :feat ejercicio tres de logica"
+    [estibenixen-ejercicio-03 0c67ef5] :sparkles :feat ejercicio tres de logica
+    1 file changed, 102 insertions(+)
+    create mode 100644 basico/logica/ejercicio-03/resoluciones/estibenixen.md
