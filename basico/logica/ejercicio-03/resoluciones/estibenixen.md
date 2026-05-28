@@ -106,3 +106,5 @@ generarReporteParty(party);
     [estibenixen-ejercicio-03 0c67ef5] :sparkles :feat ejercicio tres de logica
     1 file changed, 102 insertions(+)
     create mode 100644 basico/logica/ejercicio-03/resoluciones/estibenixen.md
+
+    
