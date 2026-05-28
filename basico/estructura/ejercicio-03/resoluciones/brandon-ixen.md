@@ -38,3 +38,16 @@
       * models: contiene archivos para ver los tipos de jugadores, como jugadorModels.js
   
 --
+# comandos utilizados:
+
+    git init, para inicializar el fork del repositorio
+    git pull, para llamar todos los campos y ramas del repositorio hacia visual studio code
+    git add, para agregar los cambios echos
+    git status, para ver los estados de los archivos modificados y ver si nos permite hacer commits
+    girt branch para ver la rama en la que esta hubicado
+    git checkout para cambiar de rama.
+    git push para mandar los cambios a la rama principal y al repositorio
+    git log, para ver el historial de commits
+    
+
+--
