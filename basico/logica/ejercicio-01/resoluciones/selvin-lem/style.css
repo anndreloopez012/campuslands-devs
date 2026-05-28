@@ -1,0 +1,131 @@
+/* Variables de Entorno Visual */
+:root {
+    --bg-dark: #0a0a0c;
+    --bg-card: #121216;
+    --primary-violet: #8b5cf6;
+    --electric-violet: #a78bfa;
+    --text-light: #f3f4f6;
+    --text-muted: #9ca3af;
+    --border-color: #1f2937;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(139, 92, 246, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: var(--primary-violet);
+    text-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+}
+
+header h2 {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    margin-top: 5px;
+}
+
+header p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    background-color: var(--primary-violet);
+    color: var(--text-light);
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--electric-violet);
+    transform: translateY(-2px);
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #1a1a24;
+    color: var(--electric-violet);
+    padding: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--primary-violet);
+}
+
+td {
+    padding: 14px;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+tr:hover {
+    background-color: rgba(139, 92, 246, 0.05);
+}
+
+/* Resaltado del podio */
+tr:nth-child(1) td:first-child {
+    color: #fbbf24; /* Oro para el Top 1 */
+    font-weight: bold;
+}
+tr:nth-child(2) td:first-child {
+    color: #94a3b8; /* Plata para el Top 2 */
+    font-weight: bold;
+}
+tr:nth-child(3) td:first-child {
+    color: #b45309; /* Bronce para el Top 3 */
+    font-weight: bold;
+}
