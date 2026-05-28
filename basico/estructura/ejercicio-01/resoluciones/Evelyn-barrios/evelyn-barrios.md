@@ -52,8 +52,8 @@ evelyn-barrios/
 ├── tests/
 │   └── .gitkeep
 └── evelyn-barrios.md
-
-
+```
+<br>
 
 ## 3. Comandos utilizados en Git
 
