@@ -1,0 +1,19 @@
+Nombre: Daniel Borja
+
+Comandos Utilizados:
+
+    mkdir resolucion-esports-shooters
+    cd resolucion-esports-shooters
+
+    git init
+
+    echo README.md 
+
+    git add README.md
+
+    git commit -m "feat(git): inicializar el repositorio y agregar archivo README del equipo vipers"
+
+Salida de Comando: 
+    git logg--oneline
+    camper@campus-H610M-K-V2:/media/camper/JDBORJA/PROGRAMACION/PRACTICAS/campuslands-devs/basico/git/ejercicio-01/resoluciones/daniel-borja-esports-shooters$ git log --oneline
+8da18ba (HEAD -> master) feat(git): inicializar el repositorio y agregar archivo README del equipo vipers
