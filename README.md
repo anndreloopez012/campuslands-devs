@@ -32,7 +32,7 @@ campuslands-devs/
 
 ## Metodología de trabajo
 
-Cada ejercicio funciona como una misión técnica. El estudiante debe leer el contexto, analizar el objetivo, seguir las instrucciones paso a paso y entregar su solución dentro de la carpeta `resoluciones/` del ejercicio correspondiente.
+Cada ejercicio funciona como una misión técnica. El estudiante debe leer el contexto, analizar el objetivo, seguir las instrucciones paso a paso y entregar su solución dentro de una carpeta propia dentro de `resoluciones/`.
 
 La meta no es solo obtener una respuesta que funcione. La meta es aprender a pensar, organizarse, nombrar correctamente, documentar decisiones y trabajar con Git como en un entorno profesional.
 
@@ -59,32 +59,34 @@ Después de resolver:
 
 ```bash
 git status
-git add basico/logica/ejercicio-01/resoluciones/juan-perez.js
+git add basico/logica/ejercicio-01/resoluciones/juan-perez/
 git commit -m "Resolver ejercicio 01 de logica"
 git push -u origin alumno/juan-perez/ejercicio-01
 ```
 
 ## Cómo entregar ejercicios
 
-Cada respuesta debe ir dentro de la carpeta `resoluciones/` del ejercicio correspondiente.
+Cada respuesta debe ir dentro de una carpeta propia dentro de `resoluciones/` del ejercicio correspondiente.
 
-Formato obligatorio del archivo:
+Formato obligatorio de carpeta:
 
 ```text
-nombre-apellido.extension
+nombre-apellido/
 ```
 
-Ejemplos:
+Dentro de esa carpeta puedes agregar uno o varios archivos según el ejercicio.
 
-- `juan-perez.js`
-- `maria-lopez.md`
-- `camilo-torres.txt`
+Ejemplos correctos:
+
+- `basico/logica/ejercicio-01/resoluciones/juan-perez/juan-perez.js`
+- `basico/estructura/ejercicio-01/resoluciones/maria-lopez/README.md`
+- `basico/git/ejercicio-01/resoluciones/camilo-torres/evidencia.md`
 
 ## Convenciones de nombres
 
 - Carpetas en minúscula.
 - Separar palabras con guion medio: `mi-proyecto`.
-- Archivos de solución con nombre y apellido: `nombre-apellido.extension`.
+- Carpetas de solución con nombre y apellido: `resoluciones/nombre-apellido/`.
 - Commits en infinitivo o pasado claro: `Agregar ranking de jugadores`, `Resolver conflicto de inventario`.
 
 ## Buenas prácticas
