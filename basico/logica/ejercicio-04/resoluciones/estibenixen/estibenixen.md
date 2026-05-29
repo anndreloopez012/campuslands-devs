@@ -138,4 +138,8 @@
 
 # commit:
  ```
- 
+        camper@campus-H610M-K-V2:~/Documentos/shen/ejercicio/campuslands-devs-2$ git commit -m "feat(logica) ejercicio cuatro realizado"
+    [feature/brandonestibenixenteleguario c820a48] feat(logica) ejercicio cuatro realizado
+    1 file changed, 141 insertions(+)
+    create mode 100644 basico/logica/ejercicio-04/resoluciones/estib
+ ```
