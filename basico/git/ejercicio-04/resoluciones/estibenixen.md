@@ -41,3 +41,12 @@ A continuación, se detalla el paso a paso técnico ejecutado en la terminal del
   ```
 
 # comit echo
+
+    ``` 
+        camper@campus-H610M-K-V2:~/Documentos/shen/ejercicio/campuslands-devs-2$ git commit -m ":feat(git) ejercico cuatro finalizado"
+        [feature/brandonestibenixenteleguario 769c122] :feat(git)       ejercico cuatro finalizado
+        1 file changed, 43 insertions(+)
+        create mode 100644 basico/git/ejercicio-04/resoluciones/   estibenixen.md
+
+    ```
+    
