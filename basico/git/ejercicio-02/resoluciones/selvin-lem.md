@@ -4,7 +4,7 @@
 
 ---
 
-## 1. Breve explicación d
+## 1. Breve explicación del procesos
 
 Para abordar este problema, dividí la tarea en tres fases críticas:
 1. **Fase de Réplica (Clonación):** Descargar de forma segura el estado actual del proyecto para trabajar en un entorno local aislado.
