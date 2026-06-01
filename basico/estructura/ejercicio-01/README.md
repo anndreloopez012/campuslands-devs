@@ -87,4 +87,4 @@ Un archivo dentro de `resoluciones/` con tu solución. Puede ser `.js`, `.md`, `
 - El archivo está en `resoluciones/`.
 - El nombre del archivo sigue el formato obligatorio.
 - Los ejemplos del README se pueden comprobar con tu solución.
-- Tu explicación permite que otro compañero entienda tu proceso.
+- Tu explicación permite que otro compañero entienda tu proceso..
