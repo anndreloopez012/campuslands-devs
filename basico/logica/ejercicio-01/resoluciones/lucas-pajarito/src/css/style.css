@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centrar todo el contenido */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Tabla */
+#tablaRanking {
+    width: 700px;
+    max-width: 90%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Encabezado */
+#tablaRanking thead {
+    background-color: #2563eb;
+    color: white;
+}
+
+#tablaRanking th {
+    padding: 15px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Celdas */
+#tablaRanking td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Filas alternadas */
+#tablaRanking tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* Hover */
+#tablaRanking tbody tr:hover {
+    background-color: #dbeafe;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+/* Top 3 destacados */
+#tablaRanking tbody tr:nth-child(1) {
+    background-color: #ffd700;
+    font-weight: bold;
+}
+
+#tablaRanking tbody tr:nth-child(2) {
+    background-color: #c0c0c0;
+    font-weight: bold;
+}
+
+#tablaRanking tbody tr:nth-child(3) {
+    background-color: #cd7f32;
+    font-weight: bold;
+}
