@@ -49,6 +49,10 @@ La meta no es solo obtener una respuesta que funcione. La meta es aprender a pen
 
 ## Flujo recomendado
 
+Para una explicación completa del proceso de entrega, revisa:
+
+[FLUJO-DE-ENTREGA.md](FLUJO-DE-ENTREGA.md)
+
 ```bash
 git checkout dev
 git pull
