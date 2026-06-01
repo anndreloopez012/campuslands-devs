@@ -26,3 +26,29 @@ function calcularPuntosEscuadra(escuadra){
 }
 
 
+// funcion que ordena el ranking, calcula el puntaje 
+function generarRanking(escuadras) {
+    if (escuadras.length === 0) {
+        console.log("No hay escuadras registradas en el torneo.");
+        return;
+    }
+
+    const escuadrasConPuntos = escuadras.map(function(escuadra) {
+        return {
+            nombre: escuadra.nombre,
+            puntosTotales: calcularPuntosEscuadra(escuadra)
+        };
+    });
+
+    escuadrasConPuntos.sort(function(a, b) {
+        return b.puntosTotales - a.puntosTotales;
+    });
+
+    console.log("=== RANKING FINAL DEL TORNEO BATTLE ROYALE ===");
+    escuadrasConPuntos.forEach(function(escuadra, indice) {
+        const numeroPosicion = indice + 1;
+        console.log(numeroPosicion + ". " + escuadra.nombre + " - " + escuadra.puntosTotales + " pts.");
+    });
+}
+
+generarRanking(listaEscuadras);
