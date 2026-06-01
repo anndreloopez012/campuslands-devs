@@ -10,8 +10,8 @@ const tablaRows = document.getElementById('rows');
 const btnCalcular = document.getElementById('btn-calcular');
 
 function pintarTabla(escuadras, mostrarPuntos = false) {
+    
     tablaRows.innerHTML = ''; 
-
     escuadras.forEach((escuadra, indice) => {
         const fila = document.createElement('tr');
         
