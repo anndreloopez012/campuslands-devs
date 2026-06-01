@@ -18,8 +18,9 @@ Cada una de estas carpetas contiene un archivo `README.md` para definir la funci
 ### Creación de nuevas ramas
 ![Creacion de ramas nueva](./assets/images/img1.png)
 
-### Creacion de la estructura y archivos
+## Creacion de la estructura y archivos
 ![Creacion de ramas nueva](./assets/images/img2.png)
 ![Creacion de ramas nueva](./assets/images/img3.png)
 ![Creacion de ramas nueva](./assets/images/img4.png)
 ![Creacion de ramas nueva](./assets/images/img5.png)
+
