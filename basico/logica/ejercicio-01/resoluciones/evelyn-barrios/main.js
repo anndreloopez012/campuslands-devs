@@ -18,7 +18,7 @@ function calcularPuntosEscuadra(escuadra){
     }else if (escuadra.posicion === 2){
         puntosPorPosicion = 14;
     }else if (escuadra.posicion === 3){
-        puntosPorPOsicion = 10;
+        puntosPorPosicion = 10;
     }else {
         puntosPorPosicion = 4;
     }
