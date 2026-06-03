@@ -1,0 +1,16 @@
+[
+  {
+    "rank": 1,
+    "nickname": "FakerEsports",
+    "points": 2850,
+    "mainChampion": "Azir",
+    "winRate": "74%"
+  },
+  {
+    "rank": 2,
+    "nickname": "ShowMaker",
+    "points": 2710,
+    "mainChampion": "Syndra",
+    "winRate": "68%"
+  }
+]
