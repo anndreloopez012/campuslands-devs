@@ -4,18 +4,18 @@
 
 # estructura:
 
-├── ejercicio-01
-│ ├── resoluciones
-│ │ ├── docs
-│ │ ├── tests
-│ │ ├── assets
-│ │ │ ├── maps
-│ │ │ ├── images
-│ │ │ ├── audio
-│ │ ├── src
-| ├── BrandonEstibenIxen.md
-│ ├── README.md
-
+| | |____ejercicio-01
+| | | |____resoluciones
+| | | | |____estibenIxen
+| | | | | |____docs
+| | | | | |____tests
+| | | | | |____BrandonEstibenIxen.md
+| | | | | |____assets
+| | | | | | |____maps
+| | | | | | |____images
+| | | | | | |____audio
+| | | | | |____src
+| | | |____README.md
 # docs
 
 en docs van a estar todos los documentos que vamos a estar consultando o utilizando durante el proceso, tambien nos podra servir para poder guardar archivos de textos u otros.
