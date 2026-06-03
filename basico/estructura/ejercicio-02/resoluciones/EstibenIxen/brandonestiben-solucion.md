@@ -27,18 +27,18 @@ para poder organizarlo d un amejor manera en este apartado creé carpetas usando
 
 -----
 
-├── ejercicio-02
-│  ├── resoluciones
-│  │  ├── Todo-css
-│  │  │  ├── styles.css
-│  │  ├── Todo-html
-│  │  │  ├── index.html
-│  │  ├── players.json
-│  │  ├── brandonestiben-solucion.md
-│  │  ├── ArchivosJavascript
-│  │  │  ├── app.js
-│  ├── README.md
-
+| | |____ejercicio-02
+| | | |____resoluciones
+| | | | |____EstibenIxen
+| | | | | |____Todo-css
+| | | | | | |____styles.css
+| | | | | |____Todo-html
+| | | | | | |____index.html
+| | | | | |____players.json
+| | | | | |____brandonestiben-solucion.md
+| | | | | |____ArchivosJavascript
+| | | | | | |____app.js
+| | | |____README.md
 --
 
 # comandos utilizados:
