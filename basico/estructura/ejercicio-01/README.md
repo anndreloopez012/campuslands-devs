@@ -87,4 +87,4 @@ Una carpeta propia dentro de `resoluciones/` con tu solución. Puede ser `.js`, 
 - El archivo está dentro de `resoluciones/nombre-apellido/`.
 - El nombre de la carpeta sigue el formato obligatorio.
 - Los ejemplos del README se pueden comprobar con tu solución.
-- Tu explicación permite que otro compañero entienda tu proceso.
+- Tu explicación permite que otro compañero entienda tu proceso..
