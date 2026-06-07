@@ -20,7 +20,7 @@ function calcularRango(bajas, posicion){
             puntosPorPosicion=10; 
             break;
         case 4:
-            puntosPorPosicion=0; 
+            puntosPorPosicion=4; 
             break;
 
     }
