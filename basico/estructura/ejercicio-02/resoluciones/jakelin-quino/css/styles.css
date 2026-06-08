@@ -1,0 +1,40 @@
+:root {
+    --color-primario: #54827b;
+    --color-secundario: #9ab9bb;
+    --color-fondo: #f0f0f0;
+    --color-texto: #333333;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    Text-align: center;
+    color: var(--color-primario);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+thead {
+    background-color: var(--color-primario);
+    color: VAR(--color-fondo);
+}
+
+tbody {
+    background-color: var(--color-secundario);
+    color: var(--color-texto);
+    text-align: center;
+}

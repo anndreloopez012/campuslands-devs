@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Ninja",
+        "apellido": "Turtle",
+        "puntos": 15,
+        "deporte": "Karate"
+    }, 
+    {
+        "nombre": "Mario",
+        "apellido": "Bros",
+        "puntos": 40,
+        "deporte": "Karting"
+    }
+]
