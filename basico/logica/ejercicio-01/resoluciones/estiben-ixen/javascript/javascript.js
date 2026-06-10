@@ -8,7 +8,7 @@ const escuadrasparticipantes = [
 ];
 
 function calcularpuntajetotal(escuadra){
-    const puntosporbajas = escuadra.bajas * 3:
+    const puntosporbajas = escuadra.bajas * 3;
 
     let puntosporposiscion =0;
 
@@ -32,7 +32,8 @@ function generarRankingTorneo(listaescuadras){
 
     const escuadraConPuntaje = listaescuadras.map(escuadra =>{
         return{
-            nombre: escuadra.nombre
+            nombre: escuadra.nombre,
+
             puntosTotales: calcularpuntajetotal(escuadra)
         };
     });
@@ -43,12 +44,12 @@ function generarRankingTorneo(listaescuadras){
     escuadraConPuntaje.forEach((escuadra, indice) => {
     
         const posisionRanking = indice +1;
-        console.log(`${posicionRanking}. ${escuadra.nombre} - ${escuadra.puntosTotales} pts.`);
+        console.log(`${posisionRanking}. ${escuadra.nombre} - ${escuadra.puntosTotales} pts.`);
 
     });
 }
 
-generarRankingTorneo(escuadrasparticipantes):
+generarRankingTorneo(escuadrasparticipantes);
 
 
 /* =============================================================================
