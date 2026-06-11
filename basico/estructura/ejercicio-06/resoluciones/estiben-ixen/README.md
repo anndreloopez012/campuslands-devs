@@ -1,4 +1,4 @@
-# solucion de ejercicio 03
+# solucion de ejercicio
 
 * **Estudiante:** Brandon Estiben Ixen Teleguario
 * **Fecha:** Junio 2026
@@ -40,4 +40,3 @@
     
     pages = almacena las paginas de precentacion de la compañia, todo lo visual, publicidad (formas de pago, anuncios, etc.)
 
-s
