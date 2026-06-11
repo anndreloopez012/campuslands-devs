@@ -1,0 +1,21 @@
+{
+  "taller": {
+    "nombre": "Taller de Motos Ejemplo",
+    "telefono": "0000-0000",
+    "moneda": "GTQ"
+  },
+  "horario": {
+    "apertura": "08:00",
+    "cierre": "18:00",
+    "diasLaborales": ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado"]
+  },
+  "ordenes": {
+    "estadosValidos": ["recibida", "en-diagnostico", "en-reparacion", "lista", "entregada"],
+    "diasMaximosEnTaller": 30,
+    "requiereAprobacionCliente": true
+  },
+  "notificaciones": {
+    "avisarPorTelefono": true,
+    "avisarPorCorreo": false
+  }
+}
