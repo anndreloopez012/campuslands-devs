@@ -15,7 +15,6 @@ Un mecánico recibe síntomas reportados por pilotos después de una carrera.
 Este ejercicio está diseñado para que practiques análisis, orden y toma de decisiones. Aunque pertenece al nivel básico, debes tratarlo como una tarea real: leer requisitos, transformar información en una solución y validar el resultado.
 
 ## Objetivo
-
 Usar condicionales para sugerir posibles causas mecánicas.
 
 ## Explicación paso a paso
