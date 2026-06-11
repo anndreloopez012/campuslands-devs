@@ -1,0 +1,17 @@
+{
+    "taller_name": "MotoSport Taller Premium",
+    "version": "1.0.0",
+    "currency": "USD",
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "tu_usuario_aqui",
+      "password": "tu_password_aqui",
+      "name": "taller_motos_db"
+    },
+    "configuracion_ordenes": {
+      "iva_porcentaje": 12,
+      "permite_diagnostico_vacio": false,
+      "tiempo_estimado_por_defecto_horas": 24
+    }
+  }
