@@ -1,0 +1,258 @@
+name: Revision automatica de PRs estudiantiles
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited, ready_for_review]
+    branches: [main, dev]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+  models: read
+
+jobs:
+  validar-entrega:
+    name: Validar entrega estudiantil
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Revisar estructura del Pull Request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = '<!-- campuslands-auto-review -->';
+            const pr = context.payload.pull_request;
+            const { owner, repo } = context.repo;
+
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner,
+              repo,
+              pull_number: pr.number,
+              per_page: 100,
+            });
+
+            const errors = [];
+            const warnings = [];
+            const changedFiles = files.map((file) => file.filename);
+
+            const resolutionPath = /(^|\/)resoluciones\/([a-z0-9]+(?:-[a-z0-9]+)+)\/.+/;
+            const forbiddenPaths = [
+              { pattern: /^\.vscode\//, reason: 'No subas configuracion local del editor como .vscode/.' },
+              { pattern: /^\.idea\//, reason: 'No subas configuracion local del editor como .idea/.' },
+              { pattern: /(^|\/)\.DS_Store$/, reason: 'No subas archivos temporales del sistema como .DS_Store.' },
+              { pattern: /(^|\/)node_modules\//, reason: 'No subas dependencias generadas como node_modules/.' },
+            ];
+
+            if (pr.base.ref === 'main') {
+              errors.push(
+                'Este Pull Request apunta a main. main es produccion y no recibe entregas de alumnos. Cierra este PR y abre uno nuevo hacia dev desde tu rama personal.'
+              );
+            }
+
+            if (!pr.head.ref || pr.head.ref === 'main' || pr.head.ref === 'dev') {
+              errors.push(
+                'La rama de trabajo no puede llamarse main ni dev. Usa una rama personal, por ejemplo alumno/nombre-apellido/ejercicio-01.'
+              );
+            }
+
+            for (const file of files) {
+              const path = file.filename;
+
+              for (const rule of forbiddenPaths) {
+                if (rule.pattern.test(path)) {
+                  errors.push(`${path}: ${rule.reason}`);
+                }
+              }
+
+              if (!resolutionPath.test(path)) {
+                errors.push(
+                  `${path}: la entrega debe ir dentro de una carpeta personal en resoluciones/{nombre-apellido}/.`
+                );
+                continue;
+              }
+
+              const studentFolder = path.match(resolutionPath)?.[2];
+              if (studentFolder && studentFolder !== studentFolder.toLowerCase()) {
+                errors.push(`${path}: usa nombres de carpeta en minusculas y con guiones, ejemplo juan-perez.`);
+              }
+
+              if (file.status === 'removed') {
+                warnings.push(`${path}: evita borrar archivos en una entrega; normalmente solo debes agregar o actualizar tu solucion.`);
+              }
+            }
+
+            const uniqueErrors = [...new Set(errors)];
+            const uniqueWarnings = [...new Set(warnings)];
+
+            const statusLine = uniqueErrors.length === 0
+              ? 'Revision automatica aprobada.'
+              : 'Revision automatica con cambios solicitados.';
+
+            const body = [
+              marker,
+              `## ${statusLine}`,
+              '',
+              uniqueErrors.length === 0
+                ? 'La estructura del PR cumple el flujo base: rama personal, destino correcto y archivos dentro de resoluciones/{nombre-apellido}/.'
+                : 'Antes de fusionar este PR a dev, corrige estos puntos:',
+              '',
+              ...uniqueErrors.map((error) => `- ${error}`),
+              ...(uniqueWarnings.length > 0 ? ['', 'Observaciones:', ...uniqueWarnings.map((warning) => `- ${warning}`)] : []),
+              '',
+              'Reglas recordadas:',
+              '- Trabaja en tu propia rama.',
+              '- Abre el Pull Request hacia dev, no hacia main.',
+              '- No modifiques archivos base, plantillas, README generales ni respuestas de otros alumnos.',
+              '- Tu entrega debe estar en resoluciones/{nombre-apellido}/ejercicio-XX/ o dentro de la carpeta resoluciones del ejercicio correspondiente.',
+            ].join('\n');
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number: pr.number,
+              per_page: 100,
+            });
+            const previous = comments.find((comment) =>
+              comment.user.type === 'Bot' && comment.body.includes(marker)
+            );
+
+            if (previous) {
+              await github.rest.issues.updateComment({
+                owner,
+                repo,
+                comment_id: previous.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: pr.number,
+                body,
+              });
+            }
+
+            core.summary
+              .addHeading(statusLine)
+              .addRaw(`Archivos revisados: ${changedFiles.length}`)
+              .write();
+
+            if (uniqueErrors.length > 0) {
+              core.setFailed(uniqueErrors.join('\n'));
+            }
+
+  validar-codigo:
+    name: Validar codigo de entrega
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar codigo del PR
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Preparar SQLite
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sqlite3
+
+      - name: Revisar sintaxis y ejecucion basica
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const os = require('os');
+            const path = require('path');
+            const { execFileSync } = require('child_process');
+
+            const pr = context.payload.pull_request;
+            const { owner, repo } = context.repo;
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner,
+              repo,
+              pull_number: pr.number,
+              per_page: 100,
+            });
+
+            const changed = files
+              .filter((file) => file.status !== 'removed')
+              .map((file) => file.filename)
+              .filter((file) => fs.existsSync(file));
+
+            const errors = [];
+
+            function run(command, args, label) {
+              try {
+                execFileSync(command, args, { stdio: 'pipe', encoding: 'utf8' });
+              } catch (error) {
+                const output = `${error.stdout || ''}${error.stderr || ''}`.trim();
+                errors.push(`${label}\n${output}`);
+              }
+            }
+
+            for (const file of changed.filter((name) => name.endsWith('.js'))) {
+              run('node', ['--check', file], `${file}: error de sintaxis JavaScript.`);
+            }
+
+            for (const file of changed.filter((name) => name.endsWith('.json'))) {
+              try {
+                JSON.parse(fs.readFileSync(file, 'utf8'));
+              } catch (error) {
+                errors.push(`${file}: JSON invalido. ${error.message}`);
+              }
+            }
+
+            const sqlFiles = changed.filter((name) => name.endsWith('.sql'));
+            const groups = new Map();
+            for (const file of sqlFiles) {
+              const parts = file.split('/');
+              const idx = parts.indexOf('resoluciones');
+              const key = idx >= 0
+                ? parts.slice(0, Math.min(parts.length - 1, idx + 3)).join('/')
+                : path.dirname(file);
+              if (!groups.has(key)) groups.set(key, []);
+              groups.get(key).push(file);
+            }
+
+            const sqlOrder = (file) => {
+              const lower = file.toLowerCase();
+              if (lower.includes('/ddl/') || lower.includes('schema') || lower.includes('estructura')) return 1;
+              if (lower.includes('/dml/') || lower.includes('insert') || lower.includes('datos')) return 2;
+              if (lower.includes('/dql/') || lower.includes('consulta') || lower.includes('query')) return 3;
+              return 4;
+            };
+
+            for (const [group, groupFiles] of groups) {
+              const db = path.join(os.tmpdir(), `${group.replace(/[^a-z0-9]+/gi, '-')}.db`);
+              for (const file of groupFiles.sort((a, b) => sqlOrder(a) - sqlOrder(b) || a.localeCompare(b))) {
+                run('sqlite3', [db, `.read ${file}`], `${file}: error ejecutando SQL con SQLite.`);
+              }
+            }
+
+            if (errors.length > 0) {
+              core.setFailed(errors.join('\n\n'));
+            } else {
+              core.summary
+                .addHeading('Validacion tecnica aprobada')
+                .addRaw(`Archivos tecnicos revisados: ${changed.length}`)
+                .write();
+            }
+
+  feedback-pedagogico:
+    name: Feedback pedagogico automatico
+    runs-on: ubuntu-latest
+    needs: [validar-entrega, validar-codigo]
+    if: always()
+
+    steps:
+      - name: Descargar codigo del PR
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Generar feedback pedagogico
+        run: node .github/scripts/feedback-pedagogico.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_MODELS_REVIEW_MODEL: ${{ vars.GITHUB_MODELS_REVIEW_MODEL || 'openai/gpt-4.1-mini' }}
