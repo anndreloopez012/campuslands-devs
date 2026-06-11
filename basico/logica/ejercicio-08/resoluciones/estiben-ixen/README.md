@@ -55,3 +55,9 @@ console.log(procesarCatalogo(hiperdeportivos));
 
 # Conclusión
 Este ejercicio demuestra que la manipulación de arreglos es fundamental para el análisis de datos en entornos de negocio. La capacidad de filtrar, clasificar y resumir información permite convertir listas de datos en herramientas de toma de decisiones para clubes de entusiastas o equipos de gestión de ventas.
+
+# commit 
+camper@campus-H610M-K-V2:~/Documentos/shen/ejercicio/campuslands-devs-6$ git commit -m "feat(logica): ejercicio8"
+[ejercicio8-estiben 48ea136] feat(logica): ejercicio8
+ 1 file changed, 57 insertions(+)
+ create mode 100644 basico/logica/ejercicio-08/resoluciones/estiben-ixen/README.md
