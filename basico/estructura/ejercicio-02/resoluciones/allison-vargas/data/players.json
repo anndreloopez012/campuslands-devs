@@ -1,0 +1,32 @@
+[
+    {
+        "nick": "ViperStrike",
+        "rol": "Carry",
+        "victorias": 150,
+        "derrotas": 50
+    },
+    {
+        "nick": "AegisShield",
+        "rol": "Offlane",
+        "victorias": 95,
+        "derrotas": 85
+    },
+    {
+        "nick": "LunarOracle",
+        "rol": "Support",
+        "victorias": 120,
+        "derrotas": 60
+    },
+    {
+        "nick": "FrostMage",
+        "rol": "Midlane",
+        "victorias": 110,
+        "derrotas": 90
+    },
+    {
+        "nick": "NovaNovice",
+        "rol": "Roamer",
+        "victorias": 0,
+        "derrotas": 0
+    }
+]
