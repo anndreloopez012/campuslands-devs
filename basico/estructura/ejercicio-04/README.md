@@ -1,90 +1,46 @@
-# Catálogo de autos de lujo
+# ✨ Catálogo de Autos de Lujo ✨
+> **Estudiante:** Allison Vargas 💕  
+> **Nivel:** Básico Retador ✨  
+> **Rama:** `alumno/allison-vargas/ejercicio-04`  
 
-## Dificultad
+---
 
-Básica retadora
+## 1. Mi Razonamiento y Lógica (Thinking Process) 🧠✨
 
-## Temática usada
+Para resolver este reto como una verdadera profesional del desarrollo, decidí diseñar la arquitectura pensando en el orden, la limpieza y la mantenibilidad. ¡Aquí te cuento mis secretos! 👇
 
-autos de lujo
+* **🎀 Separación de Conceptos (SoC):** ¡No nos gusta el código amontonado! Por eso, mantengo los datos puros en su propia cajita dentro de `data/autos.json`. La lógica inicial arranca en `src/index.js` y todo lo que brilla y se muestra en pantalla lo aislé en `src/visualizacion.js`. ¡Así da gusto trabajar en equipo!
+* **🎀 Control de Datos Críticos:** Un buen sistema jamás debe romperse. Configuré condicionales especiales para que, si un auto de lujo viene con precio en `0`, año no especificado o si el catálogo se encuentra vacío, la aplicación reaccione de forma amigable y bonita en lugar de lanzar un error feo.
 
-## Contexto del problema
+---
 
-Un equipo técnico necesita preparar una base ordenada para un proyecto relacionado con autos de lujo. El reto consiste en demostrar que sabes organizar archivos como lo haría un proyecto real.
+## 2. Convenciones Estéticas para Imágenes 📸🎀
 
-Este ejercicio está diseñado para que practiques análisis, orden y toma de decisiones. Aunque pertenece al nivel básico, debes tratarlo como una tarea real: leer requisitos, transformar información en una solución y validar el resultado.
+Para que la carpeta de recursos no se vuelva un caos total con el paso del tiempo, diseñé una regla estricta pero súper clara para nombrar los archivos multimedia dentro de `assets/cars/`:
 
-## Objetivo
+✨ **Formato Obligatorio:** `[marca]_[modelo-con-guiones]_[año]_[correlativo].jpg` ✨
 
-Organizar datos, imágenes y documentación de un catálogo premium.
+* **Todo en minúsculas:** ¡Evitemos las mayúsculas rebeldes!
+* **Adiós espacios:** Los espacios en los nombres de los modelos se cambian por guiones medios (ej. `sf90-stradale`).
+* **Año desconocido:** Si es un prototipo o coche concepto futurista y no tiene año, se usa `0000`.
 
-## Explicación paso a paso
+> 🌸 *Ejemplo Perfecto:* `ferrari_sf90-stradale_2024_01.jpg`
 
-1. Crea data, assets/cars, docs y src.
-2. Define un archivo data/autos.json con estructura de ejemplo.
-3. Documenta convenciones para nombrar imágenes.
-4. Separa lógica de visualización en src.
-5. Incluye checklist de validación.
+---
 
-## Instrucciones detalladas
+## 3. Bitácora Mágica de Comandos Git 🚀☁️
 
-- Trabaja en tu propia rama creada desde `dev`.
-- Crea tu carpeta personal dentro de esta ruta: `basico/estructura/ejercicio-04/resoluciones/nombre-apellido/`.
-- Usa el formato obligatorio de carpeta: `nombre-apellido/`.
-- Si escribes código, usa nombres de variables claros y evita resolver todo en una sola línea difícil de leer.
-- Si el ejercicio pide estructura o comandos Git, documenta lo que hiciste con capturas de comandos copiadas como texto o con una explicación clara.
-- Antes de entregar, revisa que no modificaste archivos base del ejercicio.
+Aquí está la evidencia de los comandos exactos que utilicé en mi terminal de VS Code para trabajar de manera limpia y profesional:
 
-## Ejemplos
+```bash
+# 1. Crear y cambiarme de inmediato a mi ramita de trabajo
+git checkout -b alumno/allison-vargas/ejercicio-04
 
-Ejemplo de entrega: un árbol de carpetas documentado en Markdown y, si el instructor lo permite, una mini estructura creada dentro de tu archivo de respuesta.
+# 2. Verificar que mi estructura de carpetas esté impecable y en su lugar
+git status
 
-Los ejemplos no son la única respuesta posible. Úsalos como guía para entender el tipo de entrada, proceso y salida esperada.
+# 3. Añadir mis cambios al área de preparación de forma limpia
+git add basico/estructura/ejercicio-04/resoluciones/allison-vargas/
 
-## Entregable esperado
-
-Una carpeta propia dentro de `resoluciones/` con tu solución. Puede ser `.js`, `.md`, `.txt` u otra extensión indicada por el instructor. El archivo debe incluir:
-
-- Tu nombre.
-- La solución completa.
-- Una breve explicación de cómo pensaste el problema.
-- Evidencia de validación cuando aplique.
-
-## Reglas
-
-- No modifiques respuestas de otros alumnos.
-- No borres `.gitkeep`.
-- No cambies el README del ejercicio.
-- No subas archivos fuera de tu carpeta personal en `resoluciones/nombre-apellido/`.
-- No trabajes directamente en `main`.
-
-## Consejos
-
-- Lee el problema dos veces antes de empezar.
-- Identifica datos de entrada, proceso y salida.
-- Divide la solución en pasos pequeños.
-- Usa nombres relacionados con el contexto del ejercicio.
-- Valida con al menos dos casos: uno normal y uno límite.
-
-## Errores comunes
-
-- Entregar archivos sueltos directamente en `resoluciones/` o en una carpeta equivocada.
-- Usar carpetas como `solucion/` en lugar de `nombre-apellido/`.
-- No validar datos vacíos o valores en cero.
-- Hacer commits con mensajes genéricos.
-- Resolver sin explicar el razonamiento.
-
-## Pistas opcionales
-
-- Si te bloqueas, escribe primero la solución en lenguaje natural.
-- Luego convierte cada frase en una operación concreta.
-- Revisa si necesitas arreglos, condicionales, ciclos, funciones o carpetas.
-- Usa `git status` varias veces durante el trabajo.
-
-## Cómo validar si el ejercicio quedó bien
-
-- La solución cumple el objetivo principal.
-- El archivo está dentro de `resoluciones/nombre-apellido/`.
-- El nombre de la carpeta sigue el formato obligatorio.
-- Los ejemplos del README se pueden comprobar con tu solución.
-- Tu explicación permite que otro compañero entienda tu proceso.
+# 4. Crear un commit con un mensaje súper descriptivo y profesional
+git commit -m "Resolver ejercicio no.4 de estructura"

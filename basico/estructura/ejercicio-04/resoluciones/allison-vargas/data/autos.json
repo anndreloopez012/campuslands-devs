@@ -1,0 +1,29 @@
+[
+    {
+      "id": "lux-001",
+      "marca": "Ferrari",
+      "modelo": "SF90 Stradale",
+      "anio": 2024,
+      "precio_usd": 524000,
+      "disponible": true,
+      "imagen": "ferrari_sf90-stradale_2024_01.jpg"
+    },
+    {
+      "id": "lux-002",
+      "marca": "Aston Martin",
+      "modelo": "Valkyrie",
+      "anio": 2023,
+      "precio_usd": 3500000,
+      "disponible": false,
+      "imagen": "aston-martin_valkyrie_2023_01.jpg"
+    },
+    {
+      "id": "lux-003",
+      "marca": "Concept Car X",
+      "modelo": "Prototype Zero",
+      "anio": 0,
+      "precio_usd": 0,
+      "disponible": false,
+      "imagen": "generico_prototype-zero_0000_01.jpg"
+    }
+  ]
