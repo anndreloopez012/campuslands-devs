@@ -23,4 +23,26 @@
   - git checkout/switch para cambiar de rama.
 
  # Comit realizado.
-    
+    camper@campus-H610M-K-V2:~/Documentos/shen/ejercicio/campuslands-devs-6$ git commit -m "feat(git): ejercicio 06"
+    [soluciones-estiben e75b326] feat(git): ejercicio 06
+    1 file changed, 26 insertions(+)
+    create mode 100644 basico/git/ejercicio-05/resoluciones/estiben-ixen/README.md
+
+# push realizado:
+ ```
+    camper@campus-H610M-K-V2:~/Documentos/shen/ejercicio/campuslands-devs-6$ git push -u origin soluciones-estiben
+Enumerando objetos: 27, listo.
+Contando objetos: 100% (27/27), listo.
+Compresión delta usando hasta 12 hilos
+Comprimiendo objetos: 100% (16/16), listo.
+Escribiendo objetos: 100% (20/20), 2.66 KiB | 682.00 KiB/s, listo.
+Total 20 (delta 4), reusados 2 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'soluciones-estiben' on GitHub by visiting:
+remote:      https://github.com/ixenbrandonestiben-lang/campuslands-devs/pull/new/soluciones-estiben
+remote: 
+To https://github.com/ixenbrandonestiben-lang/campuslands-devs.git
+ * [new branch]      soluciones-estiben -> soluciones-estiben
+Rama 'soluciones-estiben' configurada para hacer seguimiento a la rama remota 'soluciones-estiben' de 'origin'.
+ ```
