@@ -1,0 +1,32 @@
+[
+    {
+        "nick": "ShadowFang",
+        "rol": "Mid",
+        "victorias": 142,
+        "derrotas": 58
+    },
+    {
+        "nick": "IronGuard",
+        "rol": "Top",
+        "victorias": 118,
+        "derrotas": 72
+    },
+    {
+        "nick": "NightArrow",
+        "rol": "ADC",
+        "victorias": 96,
+        "derrotas": 64
+    },
+    {
+        "nick": "RootWarden",
+        "rol": "Support",
+        "victorias": 80,
+        "derrotas": 80
+    },
+    {
+        "nick": "EmberJung",
+        "rol": "Jungle",
+        "victorias": 0,
+        "derrotas": 0
+    }
+]
