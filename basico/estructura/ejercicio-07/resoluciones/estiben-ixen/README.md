@@ -25,15 +25,16 @@
  | | | | |____covers
  | | |____README.md
  |____README.md
+
 ```
 # Explicacion
 
-biblioteca = carpeta que almacena el proyecto general de gestion de biblioteca.
+- biblioteca = carpeta que almacena el proyecto general de gestion de biblioteca.
 
-books = Almacena los datos de los libros.
+- books = Almacena los datos de los libros.
 
-data = almacena los datos de portadas de libros en general.
-    portadas.json = almacena los datos de las portadas de los libros
-reviews = almacena pequeños datos de los libros.
-    review.md = aqui se almacen los comentarios de los diferentes lectores sobre el libro.
-covers = almacena los tipos de libros (ciencia ficcion, novela, etc.)
+- data = almacena los datos de portadas de libros en general.
+      portadas.json = almacena los datos de las portadas de los libros
+- reviews = almacena pequeños datos de los libros.
+      review.md = aqui se almacen los comentarios de los diferentes lectores sobre el libro.
+- covers = almacena los tipos de libros (ciencia ficcion, novela, etc.)
