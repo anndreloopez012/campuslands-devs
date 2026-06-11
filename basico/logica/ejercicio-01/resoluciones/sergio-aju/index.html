@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking Torneo Battle Royale</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #262626;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #ff4a4a;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #444;
+        }
+        th {
+            background-color: #ff4a4a;
+            color: white;
+        }
+        tr:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1> TABLA DE POSICIONES - BATTLE ROYALE </h1>
+        <p>Ranking oficial automatizado de escuadras basado en bajas, supervivencia y revividos.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Puesto</th>
+                    <th>Escuadra</th>
+                    <th>Bajas (x3 pts)</th>
+                    <th>Top Posición</th>
+                    <th>Puntos Totales</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-ranking">
+                </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
