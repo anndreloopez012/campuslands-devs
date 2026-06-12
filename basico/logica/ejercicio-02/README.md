@@ -26,7 +26,7 @@ Filtrar armas disponibles, validar munición mínima y recomendar cargas de comb
 4. Marca como recomendadas las armas raras o épicas.
 5. Imprime un resumen por tipo.
 
-## Instrucciones detalladas
+## Instrucciones   detalladas
 
 - Trabaja en tu propia rama creada desde `dev`.
 - Crea tu carpeta personal dentro de esta ruta: `basico/logica/ejercicio-02/resoluciones/nombre-apellido/`.
