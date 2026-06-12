@@ -1,0 +1,16 @@
+{
+  "id": "dune-1965",
+  "titulo": "Dune",
+  "autor": "Frank Herbert",
+  "anioPublicacion": 1965,
+  "editorial": "Chilton Books",
+  "isbn": "978-0441172719",
+  "paginas": 412,
+  "idioma": "es",
+  "subgenero": "space opera",
+  "sinopsis": "Paul Atreides llega al planeta desértico Arrakis, única fuente de la especia melange, donde política, religión y ecología deciden el destino del imperio.",
+  "portada": "books/covers/dune-1965-frontal.jpg",
+  "resena": "reviews/dune-1965-resena.md",
+  "disponible": true,
+  "etiquetas": ["clasico", "desierto", "imperio", "ecologia"]
+}
