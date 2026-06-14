@@ -9,8 +9,8 @@ Explica qué ejercicio resolviste y qué archivos agregaste o modificaste.
 
 ## Validación
 
-- [ ] Mi solución está dentro de `resoluciones/`.
-- [ ] El archivo sigue el formato `nombre-apellido.extension`.
+- [ ] Mi solución está dentro de `resoluciones/nombre-apellido/`.
+- [ ] No dejé archivos sueltos directamente dentro de `resoluciones/`.
 - [ ] No modifiqué respuestas de otros alumnos.
 - [ ] No borré archivos base del repositorio.
 - [ ] Revisé `git status` antes de subir.

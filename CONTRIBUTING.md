@@ -6,8 +6,8 @@ Gracias por trabajar en Campuslands Devs. Este repositorio simula un entorno pro
 
 1. Actualiza `dev`.
 2. Crea una rama propia desde `dev`.
-3. Trabaja únicamente en la carpeta `resoluciones/` del ejercicio.
-4. Usa el formato `nombre-apellido.extension`.
+3. Trabaja únicamente dentro de una carpeta propia en `resoluciones/`.
+4. Usa el formato de carpeta `nombre-apellido/`.
 5. Crea commits claros.
 6. Sube tu rama.
 
@@ -150,13 +150,14 @@ feat(git): resolver ejercicio 08
 - No modificar los README base de los ejercicios sin autorización del instructor.
 - No subir dependencias pesadas, carpetas temporales ni archivos generados innecesarios.
 - No trabajar directamente sobre `main`.
+- No subir archivos sueltos directamente dentro de `resoluciones/`; cada entrega debe ir en `resoluciones/nombre-apellido/`.
 
 ## Revisión antes de entregar
 
 Antes de subir tu solución, revisa:
 
-- El archivo está en la carpeta correcta.
-- El nombre cumple el formato solicitado.
+- El archivo está dentro de tu carpeta personal en `resoluciones/nombre-apellido/`.
+- El nombre de tu carpeta cumple el formato solicitado.
 - Tu código o respuesta se entiende sin explicación oral.
 - El ejercicio se puede validar con los ejemplos del README.
 - `git status` solo muestra los archivos que querías cambiar.

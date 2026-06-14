@@ -29,8 +29,8 @@ Separar canciones, samples, mezclas y documentación.
 ## Instrucciones detalladas
 
 - Trabaja en tu propia rama creada desde `dev`.
-- Crea tu archivo de respuesta dentro de esta carpeta: `basico/estructura/ejercicio-14/resoluciones/`.
-- Usa el formato obligatorio: `nombre-apellido.extension`.
+- Crea tu carpeta personal dentro de esta ruta: `basico/estructura/ejercicio-14/resoluciones/nombre-apellido/`.
+- Usa el formato obligatorio de carpeta: `nombre-apellido/`.
 - Si escribes código, usa nombres de variables claros y evita resolver todo en una sola línea difícil de leer.
 - Si el ejercicio pide estructura o comandos Git, documenta lo que hiciste con capturas de comandos copiadas como texto o con una explicación clara.
 - Antes de entregar, revisa que no modificaste archivos base del ejercicio.
@@ -43,7 +43,7 @@ Los ejemplos no son la única respuesta posible. Úsalos como guía para entende
 
 ## Entregable esperado
 
-Un archivo dentro de `resoluciones/` con tu solución. Puede ser `.js`, `.md`, `.txt` u otra extensión indicada por el instructor. El archivo debe incluir:
+Una carpeta propia dentro de `resoluciones/` con tu solución. Puede ser `.js`, `.md`, `.txt` u otra extensión indicada por el instructor. El archivo debe incluir:
 
 - Tu nombre.
 - La solución completa.
@@ -55,7 +55,7 @@ Un archivo dentro de `resoluciones/` con tu solución. Puede ser `.js`, `.md`, `
 - No modifiques respuestas de otros alumnos.
 - No borres `.gitkeep`.
 - No cambies el README del ejercicio.
-- No subas archivos fuera de `resoluciones/`.
+- No subas archivos fuera de tu carpeta personal en `resoluciones/nombre-apellido/`.
 - No trabajes directamente en `main`.
 
 ## Consejos
@@ -68,8 +68,8 @@ Un archivo dentro de `resoluciones/` con tu solución. Puede ser `.js`, `.md`, `
 
 ## Errores comunes
 
-- Entregar el archivo en una carpeta equivocada.
-- Usar nombres como `solucion.js` en lugar de `nombre-apellido.js`.
+- Entregar archivos sueltos directamente en `resoluciones/` o en una carpeta equivocada.
+- Usar carpetas como `solucion/` en lugar de `nombre-apellido/`.
 - No validar datos vacíos o valores en cero.
 - Hacer commits con mensajes genéricos.
 - Resolver sin explicar el razonamiento.
@@ -84,7 +84,7 @@ Un archivo dentro de `resoluciones/` con tu solución. Puede ser `.js`, `.md`, `
 ## Cómo validar si el ejercicio quedó bien
 
 - La solución cumple el objetivo principal.
-- El archivo está en `resoluciones/`.
-- El nombre del archivo sigue el formato obligatorio.
+- El archivo está dentro de `resoluciones/nombre-apellido/`.
+- El nombre de la carpeta sigue el formato obligatorio.
 - Los ejemplos del README se pueden comprobar con tu solución.
 - Tu explicación permite que otro compañero entienda tu proceso.
