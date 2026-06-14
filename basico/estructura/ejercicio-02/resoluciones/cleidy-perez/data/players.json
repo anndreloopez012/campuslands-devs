@@ -1,0 +1,15 @@
+[
+    {
+    
+    "id": 1,
+    "nombre": "Juan",
+    "rol": "Capitan",
+     "mmr": 2500
+},
+{
+    "id":2,
+    "nombre": "Ester",
+    "rol":"subcapitan",
+     "mmr": 2800
+}
+]
