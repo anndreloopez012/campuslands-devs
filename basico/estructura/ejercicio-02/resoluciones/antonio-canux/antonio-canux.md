@@ -1,7 +1,6 @@
 # Proyecto de estructuración - Ranking de Jugadores
-
-## Nombre del Camper 
-Marco Antonio Canux Raquec
+ 
+**Nombre del Camper:**Marco Antonio Canux Raquec
 
 ## Estructura del proyecto
 ```
