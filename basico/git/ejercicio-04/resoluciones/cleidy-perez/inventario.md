@@ -5,5 +5,12 @@
 - Rifle de asalto
 - Francotirador
 
-Curaciones
-Objetos de utilidad
+## Curaciones
+- Botiquín pequeño
+- Botiquín grande
+- Venda
+
+## Objetos de utilidad
+- Granada de humo
+- Linterna
+- Kit de herramientas
