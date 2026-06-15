@@ -1,4 +1,9 @@
 # Inventario del videojuego
-Armas
+## Armas
+- Pistola
+- Escopeta
+- Rifle de asalto
+- Francotirador
+
 Curaciones
 Objetos de utilidad
