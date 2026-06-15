@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "nombre": "Toyota",
+        "año": "2005"
+    },
+     {
+        "id":2,
+        "nombre": "ford",
+        "año": "2007"
+    },
+     {
+        "id":3,
+        "nombre": "mazda",
+        "año": "2000"
+    }
+]
