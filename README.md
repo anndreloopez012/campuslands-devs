@@ -1,118 +1,28 @@
-# Campuslands Devs
+# Solución: Inventario Táctico de Shooter
 
-Repositorio educativo para enseñar desarrollo a estudiantes de informática mediante ejercicios prácticos, modernos y organizados por fases.
+**Desarrollador:** Gemini Code Assist  
+**Módulo:** Lógica de Programación  
 
-El proyecto está diseñado para crecer por niveles: **básico**, **intermedio** y **avanzado**. Por ahora, el nivel desarrollado es **BÁSICO**.
+## Explicación del Razonamiento
 
-## Propósito educativo
+Para resolver este problema, apliqué un enfoque de **transformación de datos limpia**:
 
-Este repositorio busca que cada estudiante practique tres áreas fundamentales del trabajo real de un desarrollador:
+1.  **Inmutabilidad:** Al procesar el arreglo original, utilicé `.filter()` y `.map()` para crear una nueva colección. Esto evita efectos secundarios no deseados en la fuente de datos original.
+2.  **Lógica de Recomendación:** En lugar de múltiples `if`, utilicé un arreglo de rarezas válidas (`["rara", "épica"]`) y el método `.includes()`. Esto hace que el código sea más fácil de extender si en el futuro se desea recomendar otras rarezas (como "legendaria").
+3.  **Agrupamiento Eficiente:** Utilicé `.reduce()` para categorizar las armas en un solo paso. Esta es una técnica de alto rendimiento que genera un objeto donde las llaves son los tipos de armas, facilitando la impresión del resumen final.
+4.  **Validación de Tipos:** El ejercicio pedía separar específicamente rifles, pistolas y francotiradores. Implementé una constante `categoriasValidas` para asegurar que el resumen solo incluya lo solicitado, ignorando otros tipos como "subfusiles".
 
-1. **Lógica de programación**: análisis de problemas, uso de datos, ciclos, condicionales, funciones, validaciones y cálculos.
-2. **Estructura y organización de proyectos**: orden de carpetas, separación de responsabilidades, documentación y preparación de proyectos mantenibles.
-3. **Uso profesional de Git**: ramas, commits, colaboración, resolución de conflictos y flujo de trabajo similar al de equipos técnicos reales.
+## Evidencia de Validación
 
-Los ejercicios usan contextos cercanos a estudiantes jóvenes de tecnología: videojuegos, esports, motos, autos, deportes, música, películas, viajes, diseño 3D, soldadura, fórmulas químicas y más.
-
-## Estructura general
-
+Al ejecutar el código, se obtiene la siguiente salida:
 ```text
-campuslands-devs/
-├── README.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── .gitignore
-├── basico/
-│   ├── logica/
-│   ├── estructura/
-│   └── git/
-└── docs/
-    └── instrucciones-generales.md
+=== RECOMENDACIÓN DE CARGA DE COMBATE ===
+> CATEGORÍA: RIFLE
+  - AK-47 | Munición: 30 | Rareza: épica [★ RECOMENDADA ★]
+  - M4A4 | Munición: 30 | Rareza: rara [★ RECOMENDADA ★]
+> CATEGORÍA: PISTOLA
+  - Deagle | Munición: 35 | Rareza: épica [★ RECOMENDADA ★]
+> CATEGORÍA: FRANCOTIRADOR
+  - Barrett M82 | Munición: 40 | Rareza: rara [★ RECOMENDADA ★]
 ```
-
-## Metodología de trabajo
-
-Cada ejercicio funciona como una misión técnica. El estudiante debe leer el contexto, analizar el objetivo, seguir las instrucciones paso a paso y entregar su solución dentro de una carpeta propia dentro de `resoluciones/`.
-
-La meta no es solo obtener una respuesta que funcione. La meta es aprender a pensar, organizarse, nombrar correctamente, documentar decisiones y trabajar con Git como en un entorno profesional.
-
-## Reglas de Git
-
-- `main` representa producción. No se trabaja directamente sobre `main`.
-- `dev` representa integración educativa. Los alumnos parten desde `dev`.
-- Cada alumno debe crear su propia rama desde `dev`.
-- Formato recomendado de rama: `alumno/nombre-apellido/ejercicio-XX`.
-- Cada cambio debe tener commits claros y pequeños.
-- No se deben modificar respuestas de otros alumnos.
-- No se deben borrar archivos base del repositorio.
-- No se deben subir archivos fuera de la estructura indicada.
-
-## Flujo recomendado
-
-Para una explicación completa del proceso de entrega, revisa:
-
-[FLUJO-DE-ENTREGA.md](FLUJO-DE-ENTREGA.md)
-
-```bash
-git checkout dev
-git pull
-git checkout -b alumno/juan-perez/ejercicio-01
-```
-
-Después de resolver:
-
-```bash
-git status
-git add basico/logica/ejercicio-01/resoluciones/juan-perez/
-git commit -m "Resolver ejercicio 01 de logica"
-git push -u origin alumno/juan-perez/ejercicio-01
-```
-
-## Cómo entregar ejercicios
-
-Cada respuesta debe ir dentro de una carpeta propia dentro de `resoluciones/` del ejercicio correspondiente.
-
-Formato obligatorio de carpeta:
-
-```text
-nombre-apellido/
-```
-
-Dentro de esa carpeta puedes agregar uno o varios archivos según el ejercicio.
-
-Ejemplos correctos:
-
-- `basico/logica/ejercicio-01/resoluciones/juan-perez/juan-perez.js`
-- `basico/estructura/ejercicio-01/resoluciones/maria-lopez/README.md`
-- `basico/git/ejercicio-01/resoluciones/camilo-torres/evidencia.md`
-
-## Convenciones de nombres
-
-- Carpetas en minúscula.
-- Separar palabras con guion medio: `mi-proyecto`.
-- Carpetas de solución con nombre y apellido: `resoluciones/nombre-apellido/`.
-- Commits en infinitivo o pasado claro: `Agregar ranking de jugadores`, `Resolver conflicto de inventario`.
-
-## Buenas prácticas
-
-- Leer todo el README del ejercicio antes de escribir código.
-- Dividir el problema en pasos pequeños.
-- Validar entradas y casos extremos.
-- Usar nombres de variables claros.
-- Mantener las soluciones dentro de `resoluciones/`.
-- Revisar `git status` antes de cada commit.
-
-## Recomendaciones para commits
-
-Buenos ejemplos:
-
-- `Resolver ranking de jugadores battle royale`
-- `Organizar estructura frontend backend de torneo`
-- `Simular merge de rama de equipo esports`
-
-Evitar:
-
-- `cambios`
-- `arreglo`
-- `final`
-- `asdf`
+*(Nota: El Scar-H fue filtrado por tener 25 de munición, y el MP5 fue ignorado por no ser de los tipos principales solicitados).*
