@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eSports MOBA - Ranking de Jugadores</title>
+    <!-- REGLA: Conexión de estilos externa (Sin mezclar estilos dentro del HTML) -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🏆 Leaderboard Global - Torneo MOBA</h1>
+    </header>
+
+    <main>
+        <section class="ranking-container">
+            <h2>Top Pro-Players</h2>
+            <!-- Tabla estructurada para el ranking -->
+            <table id="ranking-table">
+                <thead>
+                    <tr>
+                        <th>Rango</th>
+                        <th>Nickname</th>
+                        <th>Campeón Principal</th>
+                        <th>MMR</th>
+                        <th>Win Rate</th>
+                    </tr>
+                </thead>
+                <tbody id="ranking-body">
+                    <!-- Los datos de players.json se cargarán aquí mediante JS -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- REGLA: Conexión del script al final con defer para carga limpia -->
+    <script src="js/app.js" defer></script>
+</body>
+</html>

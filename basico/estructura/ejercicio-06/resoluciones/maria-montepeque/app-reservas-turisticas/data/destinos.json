@@ -1,0 +1,40 @@
+{
+  "destinos": [
+    {
+      "id": "dest-001",
+      "nombre": "Antigua Guatemala",
+      "pais": "Guatemala",
+      "descripcion": "Ciudad colonial rodeada de volcanes, declarada Patrimonio de la Humanidad.",
+      "precioPorNoche": 85.0,
+      "moneda": "USD",
+      "calificacion": 4.8,
+      "cuposDisponibles": 12,
+      "imagen": "antigua-guatemala.jpg",
+      "etiquetas": ["cultura", "historia", "volcanes"]
+    },
+    {
+      "id": "dest-002",
+      "nombre": "Lago de Atitlán",
+      "pais": "Guatemala",
+      "descripcion": "Lago volcánico rodeado de pueblos mayas con vistas espectaculares.",
+      "precioPorNoche": 60.0,
+      "moneda": "USD",
+      "calificacion": 4.9,
+      "cuposDisponibles": 8,
+      "imagen": "lago-atitlan.jpg",
+      "etiquetas": ["naturaleza", "lago", "aventura"]
+    },
+    {
+      "id": "dest-003",
+      "nombre": "Tikal",
+      "pais": "Guatemala",
+      "descripcion": "Ruinas mayas en medio de la selva del Petén.",
+      "precioPorNoche": 95.0,
+      "moneda": "USD",
+      "calificacion": 4.7,
+      "cuposDisponibles": 0,
+      "imagen": "tikal.jpg",
+      "etiquetas": ["arqueologia", "selva", "maya"]
+    }
+  ]
+}

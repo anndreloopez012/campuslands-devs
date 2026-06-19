@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hamburguesa-clasica",
+    "nombre": "Hamburguesa Clásica",
+    "descripcion": "Carne de res, lechuga, tomate, cebolla y salsa especial.",
+    "categoria": "plato",
+    "precio": 65.00,
+    "disponible": true,
+    "foto": "assets/photos/platos/hamburguesa-clasica.jpg"
+  },
+  {
+    "id": "pasta-alfredo",
+    "nombre": "Pasta Alfredo",
+    "descripcion": "Fettuccine con salsa cremosa de parmesano.",
+    "categoria": "plato",
+    "precio": 72.50,
+    "disponible": true,
+    "foto": "assets/photos/platos/pasta-alfredo.jpg"
+  },
+  {
+    "id": "sopa-del-dia",
+    "nombre": "Sopa del Día",
+    "descripcion": null,
+    "categoria": "plato",
+    "precio": 0,
+    "disponible": false,
+    "foto": null
+  }
+]

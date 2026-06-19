@@ -1,0 +1,9 @@
+{
+  "id": "andy-wallace",
+  "nombre": "Andy Wallace",
+  "nacionalidad": "Británico",
+  "categoria": "hypercar",
+  "experiencia_anios": 35,
+  "victorias": 48,
+  "vehiculo_asignado": "bugatti-divo-2022"
+}

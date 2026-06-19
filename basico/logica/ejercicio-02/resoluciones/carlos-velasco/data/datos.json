@@ -1,0 +1,8 @@
+[
+  {"nombre": "Fusil de Asalto M4", "tipo": "rifle", "municion": 30, "rareza": "comun"},
+  {"nombre": "Pistola Básica", "tipo": "pistola", "municion": 15, "rareza": "comun"},
+  {"nombre": "Rifle de Plasma", "tipo": "rifle", "municion": 45, "rareza": "rara"},
+  {"nombre": "Pistola Automática G18", "tipo": "pistola", "municion": 33, "rareza": "rara"},
+  {"nombre": "Francotirador de Riel", "tipo": "francotirador", "municion": 30, "rareza": "epica"},
+  {"nombre": "Sniper Pesado", "tipo": "francotirador", "municion": 5, "rareza": "legendaria"}
+]

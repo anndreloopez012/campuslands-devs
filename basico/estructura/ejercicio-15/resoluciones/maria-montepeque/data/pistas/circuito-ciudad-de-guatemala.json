@@ -1,0 +1,10 @@
+{
+  "id": "circuito-ciudad-de-guatemala",
+  "nombre": "Circuito Ciudad de Guatemala",
+  "pais": "Guatemala",
+  "longitud_km": 5.8,
+  "tipo": "urbano",
+  "curvas": 18,
+  "recta_principal_m": 900,
+  "superficie": "asfalto"
+}

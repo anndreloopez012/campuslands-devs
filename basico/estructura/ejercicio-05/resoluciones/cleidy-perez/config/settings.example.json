@@ -1,0 +1,14 @@
+{
+  "app": {
+    "port": 3000,
+    "env": "development"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "taller_motos_db",
+    "user": "tu_usuario",
+    "password": "tu_password"
+  },
+  "jwt_secret": "tu_secreto_super_seguro"
+}

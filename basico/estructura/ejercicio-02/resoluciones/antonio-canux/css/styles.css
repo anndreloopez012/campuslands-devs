@@ -1,0 +1,138 @@
+:root {
+    --bg: #0c0f1a;
+    --surface: #141a2b;
+    --surface-alt: #1b2238;
+    --line: #283150;
+    --text: #e8ecf6;
+    --muted: #8a93b0;
+    --accent: #ffcc33;
+    --win: #34d399;
+    --loss: #f87171;
+    --gold: #ffcc33;
+    --silver: #c0c9dd;
+    --bronze: #d99858;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: start center;
+    padding: 48px 16px;
+    font-family: "Rajdhani", sans-serif;
+    background: radial-gradient(circle at 50% 50%, #1a4037 0%, transparent 45%), var(--bg);
+    color: var(--text);
+}
+
+.ranking-main {
+    width: min(640px, 100%);
+}
+
+.ranking-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Contenedor de la lista */
+#lista-jugadores {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Estilos base de cada jugador (tarjeta) */
+.player {
+    display: flex;
+    align-items: center;
+    background-color: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px;
+    gap: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.player:hover {
+    transform: translateY(-2px);
+    background-color: var(--surface-alt);
+    border-color: var(--muted);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Rango / Posición */
+.player__rank {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--muted);
+    width: 32px;
+    text-align: center;
+}
+
+/* Información del jugador (Nick y Rol) */
+.player__info {
+    flex: 1; /* Toma todo el espacio disponible en el centro */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.player__nick {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.player__rol {
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Estadísticas (Winrate y V/D) */
+.player__stats {
+    text-align: right;
+}
+
+.player__wr {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.player__record {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-top: 4px;
+}
+
+.player__record .w { color: var(--win); font-weight: 600; }
+.player__record .l { color: var(--loss); font-weight: 600; }
+
+/* Top 3 Colores de rango */
+.player--1 { border-color: rgba(255, 204, 51, 0.3); } /* Borde tenue dorado para el #1 */
+.player--1 .player__rank { color: var(--gold); }
+.player--2 .player__rank { color: var(--silver); }
+.player--3 .player__rank { color: var(--bronze); }
+
+/* Caso Límite: Lista vacía o con error */
+.ranking__empty {
+    text-align: center;
+    color: var(--muted);
+    padding: 32px;
+    background-color: var(--surface);
+    border-radius: 8px;
+    border: 1px dashed var(--line);
+}

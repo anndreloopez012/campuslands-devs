@@ -1,0 +1,23 @@
+[
+  {
+    "id": "antigua-001",
+    "nombre": "Antigua Guatemala",
+    "categoria": "cultural",
+    "precio_por_noche": 350,
+    "disponible": true
+  },
+  {
+    "id": "atitlan-001",
+    "nombre": "Lago de Atitlán",
+    "categoria": "naturaleza",
+    "precio_por_noche": 280,
+    "disponible": true
+  },
+  {
+    "id": "tikal-001",
+    "nombre": "Tikal",
+    "categoria": "arqueologico",
+    "precio_por_noche": 420,
+    "disponible": false
+  }
+]

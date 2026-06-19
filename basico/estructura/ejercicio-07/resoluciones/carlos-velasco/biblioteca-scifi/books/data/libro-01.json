@@ -1,0 +1,8 @@
+{
+  "id": "libro-001",
+  "titulo": "Dune",
+  "autor": "Frank Herbert",
+  "anio": 1965,
+  "genero": "Ciencia Ficción",
+  "disponible": true
+}

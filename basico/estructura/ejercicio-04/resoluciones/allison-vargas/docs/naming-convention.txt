@@ -1,0 +1,25 @@
+======================================================================
+CONVENCIÓN DE NOMBRES PARA IMÁGENES DEL CATÁLOGO PREMIUM
+======================================================================
+
+Para mantener el orden visual y la automatización del software,
+todas las imágenes que se suban a la ruta 'assets/cars/' deben
+cumplir estrictamente con las siguientes reglas:
+
+1. FORMATO OBLIGATORIO:
+   [marca]-[modelo]-[año].[extensión]
+
+2. REGLAS ESPECÍFICAS:
+   - Todo debe escribirse estrictamente en MINÚSCULAS.
+   - Espacios en blanco reemplazados por GUIONES MEDIOS (-).
+   - No usar caracteres especiales, acentos, ni eñes (ñ).
+   - Formatos de imagen permitidos: .jpg, .png o .webp (recomendado).
+
+3. EJEMPLOS CORRECTOS:
+   ferrari-sf90-stradale-2024.jpg
+   lamborghini-revuelto-2025.webp
+
+4. EJEMPLOS INCORRECTOS:
+   Ferrari SF90 Stradale 2024.JPG  (Tiene mayúsculas y espacios)
+   porsche_911_gt3_rs.png         (Usa guion bajo y le falta el año)
+======================================================================

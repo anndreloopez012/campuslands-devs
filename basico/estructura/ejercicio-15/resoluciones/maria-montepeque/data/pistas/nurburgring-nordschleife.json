@@ -1,0 +1,10 @@
+{
+  "id": "nurburgring-nordschleife",
+  "nombre": "Nürburgring Nordschleife",
+  "pais": "Alemania",
+  "longitud_km": 20.8,
+  "tipo": "mixto",
+  "curvas": 154,
+  "recta_principal_m": 650,
+  "superficie": "asfalto"
+}

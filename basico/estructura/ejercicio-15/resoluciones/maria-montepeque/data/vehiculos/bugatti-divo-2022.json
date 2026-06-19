@@ -1,0 +1,12 @@
+{
+  "id": "bugatti-divo-2022",
+  "marca": "Bugatti",
+  "modelo": "Divo",
+  "anio": 2022,
+  "potencia_cv": 1500,
+  "velocidad_maxima_kmh": 380,
+  "peso_kg": 1895,
+  "traccion": "AWD",
+  "categoria": "hypercar",
+  "disponible": true
+}

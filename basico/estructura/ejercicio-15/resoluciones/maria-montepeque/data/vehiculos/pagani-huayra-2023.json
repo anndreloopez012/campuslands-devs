@@ -1,0 +1,12 @@
+{
+  "id": "pagani-huayra-2023",
+  "marca": "Pagani",
+  "modelo": "Huayra R",
+  "anio": 2023,
+  "potencia_cv": 850,
+  "velocidad_maxima_kmh": 340,
+  "peso_kg": 1000,
+  "traccion": "RWD",
+  "categoria": "hypercar",
+  "disponible": true
+}

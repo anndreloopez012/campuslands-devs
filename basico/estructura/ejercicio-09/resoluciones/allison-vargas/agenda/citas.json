@@ -1,0 +1,22 @@
+[
+    {
+      "idCita": "cit-901",
+      "fecha": "2026-07-10",
+      "hora": "14:00",
+      "idTatuador": "tat-02",
+      "idDiseño": "dsn-404",
+      "estadoCita": "Confirmada",
+      "horasEstimadas": 3,
+      "anticipoPagadoGTQ": 200.00
+    },
+    {
+      "idCita": "cit-902",
+      "fecha": "2026-07-11",
+      "hora": "10:00",
+      "idTatuador": "tat-01",
+      "idDiseño": "dsn-512",
+      "estadoCita": "Pendiente de Anticipo",
+      "horasEstimadas": 5,
+      "anticipoPagadoGTQ": 0.00
+    }
+  ]

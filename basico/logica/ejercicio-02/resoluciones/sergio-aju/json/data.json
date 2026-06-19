@@ -1,0 +1,8 @@
+[
+  { "nombre": "AK-47", "tipo": "rifle", "municion": 45, "rareza": "epica" },
+  { "nombre": "Glock", "tipo": "pistola", "municion": 17, "rareza": "comun" },
+  { "nombre": "AWP", "tipo": "francotirador", "municion": 10, "rareza": "rara" },
+  { "nombre": "M4A1", "tipo": "rifle", "municion": 30, "rareza": "rara" },
+  { "nombre": "Desert Eagle", "tipo": "pistola", "municion": 35, "rareza": "epica" },
+  { "nombre": "Kar98k", "tipo": "francotirador", "municion": 5, "rareza": "comun" }
+]

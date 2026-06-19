@@ -1,0 +1,34 @@
+[
+  {
+    "id": "comunicaciones-fc",
+    "nombre": "Comunicaciones FC",
+    "ciudad": "Ciudad de Guatemala",
+    "fundacion": 1949,
+    "estadio": "Estadio Doroteo Guamuch Flores",
+    "colores": ["blanco", "azul"]
+  },
+  {
+    "id": "municipal-fc",
+    "nombre": "Municipal FC",
+    "ciudad": "Ciudad de Guatemala",
+    "fundacion": 1936,
+    "estadio": "Estadio El Trébol",
+    "colores": ["rojo", "negro"]
+  },
+  {
+    "id": "xelajú-mc",
+    "nombre": "Xelajú MC",
+    "ciudad": "Quetzaltenango",
+    "fundacion": 1928,
+    "estadio": "Estadio Mario Camposeco",
+    "colores": ["azul", "amarillo"]
+  },
+  {
+    "id": "antigua-gfc",
+    "nombre": "Antigua GFC",
+    "ciudad": "Antigua Guatemala",
+    "fundacion": 2007,
+    "estadio": "Estadio Pensativo",
+    "colores": ["verde", "amarillo"]
+  }
+]

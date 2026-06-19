@@ -1,0 +1,22 @@
+[
+    {
+      "isbn": "978-04eae06843",
+      "titulo": "Dune",
+      "autor": "Frank Herbert",
+      "anoPublicacion": 1965,
+      "subgenero": "Space Opera",
+      "sinopsis": "En el desertico planeta Arrakis, el joven Paul Atreides debe vengar a su familia y asegurar el control del recurso mas valioso del universo: la especia.",
+      "archivoPortada": "97804eae06843-dune.jpg",
+      "disponible": true
+    },
+    {
+      "isbn": "978-0345347954",
+      "titulo": "Neuromante",
+      "autor": "William Gibson",
+      "anoPublicacion": 1984,
+      "subgenero": "Cyberpunk",
+      "sinopsis": "Un hacker informatico caido en desgracia es contratado para ejecutar un hackeo supuestamente imposible a una inteligencia artificial de escala corporativa.",
+      "archivoPortada": "9780345347954-neuromante.jpg",
+      "disponible": false
+    }
+  ]

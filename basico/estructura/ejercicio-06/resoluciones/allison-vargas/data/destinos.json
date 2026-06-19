@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dest-001",
+    "nombre": "Tikal",
+    "pais": "Guatemala",
+    "precioPorNoche": 120,
+    "disponible": true,
+    "maxCupos": 15
+  },
+  {
+    "id": "dest-002",
+    "nombre": "Santorini",
+    "pais": "Grecia",
+    "precioPorNoche": 350,
+    "disponible": true,
+    "maxCupos": 8
+  },
+  {
+    "id": "dest-003",
+    "nombre": "Kioto",
+    "pais": "Japón",
+    "precioPorNoche": 210,
+    "disponible": false,
+    "maxCupos": 0
+  }
+]

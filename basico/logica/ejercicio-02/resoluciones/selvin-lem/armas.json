@@ -1,0 +1,9 @@
+[
+  { "nombre": "M4A1", "tipo": "rifle", "municion": 30, "rareza": "comun" },
+  { "nombre": "AK-47", "tipo": "rifle", "municion": 45, "rareza": "epica" },
+  { "nombre": "Glock-18", "tipo": "pistola", "municion": 20, "rareza": "comun" },
+  { "nombre": "Desert Eagle", "tipo": "pistola", "municion": 35, "rareza": "rara" },
+  { "nombre": "AWP", "tipo": "francotirador", "municion": 10, "rareza": "legendaria" },
+  { "nombre": "Barrett .50", "tipo": "francotirador", "municion": 35, "rareza": "epica" },
+  { "nombre": "Scar-H", "tipo": "rifle", "municion": 25, "rareza": "rara" }
+]

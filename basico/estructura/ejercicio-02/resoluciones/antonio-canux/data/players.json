@@ -1,0 +1,44 @@
+[
+    {
+        "nick": "Depredador502",
+        "papel": "Mid",
+        "victorias": 721,
+        "derrotas": 14
+    },
+    {
+        "nick": "XtraForce",
+        "rol": "Top",
+        "victorias": 349,
+        "derrotas": 72
+    },
+    {
+        "nick": "FlashGun",
+        "rol": "ADC",
+        "victorias": 143,
+        "derrotas": 56
+    },
+    {
+        "nick": "GreaWarrior",
+        "rol": "Support",
+        "victorias": 129,
+        "derrotas": 80
+    },
+    {
+        "nick": "DragonSon",
+        "rol": "Jungle",
+        "victorias": 78,
+        "derrotas": 137
+    },
+    {
+        "nick": "Jochis",
+        "rol": "Support",
+        "victorias": 286,
+        "derrotas": 89
+    },
+    {
+        "nick": "Light",
+        "rol": "Jungle",
+        "victorias": 190,
+        "derrotas": 97
+    }
+]

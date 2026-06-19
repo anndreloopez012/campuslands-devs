@@ -1,0 +1,48 @@
+{
+  "catalogo": "Autos de Lujo Premium",
+  "version": "1.0.0",
+  "autos": [
+    {
+      "id": "rolls-royce-phantom-2024",
+      "marca": "Rolls-Royce",
+      "modelo": "Phantom",
+      "anio": 2024,
+      "precioUsd": 460000,
+      "motor": "V12 6.75L biturbo",
+      "potenciaHp": 563,
+      "color": "Negro medianoche",
+      "disponible": true,
+      "imagenes": [
+        "assets/cars/rolls-royce-phantom-2024-frontal.jpg",
+        "assets/cars/rolls-royce-phantom-2024-interior.jpg"
+      ]
+    },
+    {
+      "id": "ferrari-sf90-2024",
+      "marca": "Ferrari",
+      "modelo": "SF90 Stradale",
+      "anio": 2024,
+      "precioUsd": 528000,
+      "motor": "V8 4.0L híbrido",
+      "potenciaHp": 986,
+      "color": "Rosso Corsa",
+      "disponible": true,
+      "imagenes": [
+        "assets/cars/ferrari-sf90-2024-frontal.jpg",
+        "assets/cars/ferrari-sf90-2024-lateral.jpg"
+      ]
+    },
+    {
+      "id": "bentley-continental-2023",
+      "marca": "Bentley",
+      "modelo": "Continental GT",
+      "anio": 2023,
+      "precioUsd": 0,
+      "motor": "W12 6.0L",
+      "potenciaHp": 650,
+      "color": "Verde británico",
+      "disponible": false,
+      "imagenes": []
+    }
+  ]
+}
