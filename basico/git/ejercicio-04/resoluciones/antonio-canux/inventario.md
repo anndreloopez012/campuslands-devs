@@ -8,4 +8,12 @@
 
 ## Curaciones
 
+- Botiquín
+- Vendajes
+- Poción de escudo
+
 ## Utilidad
+
+- Granada
+- Trampa
+- Bomba de humo
