@@ -1,9 +1,19 @@
 
-# Política de Privacidad y Manejo de Datos
+# Ejercicio 09: Estudio de Tatuajes
 
-En este estudio de tatuajes, la protección de la información de nuestros clientes es nuestra prioridad. 
+**Nombre:** Irma Arias
 
-## Reglas de manejo de datos:
-- **Confidencialidad:** Toda la información contenida en la carpeta `clientes/` es estrictamente confidencial.
-- **Prohibición:** No se deben subir imágenes reales de clientes, nombres completos, ni documentos de identificación a este repositorio.
-- **Uso académico:** Para fines de desarrollo y pruebas, se deben utilizar únicamente marcadores de posición (ejemplos genéricos de EE. UU.) que no correspondan a personas reales.
+## Estructura del Proyecto
+- **referencias/**: Carpeta para imágenes de inspiración y estilos de tatuaje.
+- **disenos/**: Archivos finales y sketches de los diseños.
+- **clientes/**: Registro de fichas de clientes (datos protegidos).
+- **agenda/**: Programación de citas y control de tiempos.
+
+## Razonamiento
+He diseñado esta estructura separando los activos visuales de la información administrativa. La carpeta `clientes/` incluye un aviso de privacidad para cumplir con la normativa de protección de datos. Todos los nombres de las carpetas se han definido sin espacios para asegurar la compatibilidad en cualquier sistema operativo.
+
+## Plantilla de Ficha de Diseño (disenos/ficha-diseno.md)
+- **ID Cliente:** [Ej: USA-001]
+- **Estilo:** [Ej: Realismo, Tradicional]
+- **Dimensiones:** [Ej: 10x10 cm]
+- **Estado:** [Pendiente/Aprobado]
