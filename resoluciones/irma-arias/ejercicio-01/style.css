@@ -1,0 +1,657 @@
+/* RESET GENERAL Y ESTILOS BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #FAFAFA;
+    color: #2C3E50;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #EAEAEA;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #2C3E50;
+}
+
+.logo span {
+    color: #E67E22;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #E67E22;
+}
+
+/* SECCIÓN HERO */
+.hero {
+    background-color: #FAFAFA;
+    padding: 60px 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555555;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #E67E22;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    background-color: #D35400;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+/* TÍTULOS DE SECCIÓN */
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #F39C12;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+}
+
+/* SECCIÓN MENÚ (TARJETAS) */
+.menu-section {
+    background-color: #FAFAFA;
+}
+
+.menu-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-card {
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 16px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #F39C12;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+.menu-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-right: 80px;
+}
+
+.menu-card .description {
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.menu-card .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #E67E22;
+    margin-bottom: 20px;
+}
+
+.btn-card {
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #E67E22;
+    border: 2px solid #E67E22;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-card:hover {
+    background-color: #E67E22;
+    color: #FFFFFF;
+}
+
+/* SECCIÓN CÓMO PEDIR */
+.steps-section {
+    background-color: #FFFDF9;
+    border-top: 1px solid #FDF0D5;
+    border-bottom: 1px solid #FDF0D5;
+}
+
+.steps-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.step-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background-color: #F39C12;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+}
+
+.step-card h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.step-card p {
+    font-size: 15px;
+    color: #666666;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #2C3E50;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+.footer-content p {
+    margin-bottom: 8px;
+}
+
+/* BOTÓN FLOTANTE DE WHATSAPP */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366;
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    transition: transform 0.3s;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-icon {
+    width: 32px;
+    height: 32px;
+    fill: #FFFFFF;
+}
+
+/* RESPONSIVE DESIGN (Pantallas medianas y grandes) */
+@media (min-width: 768px) {
+    .hero-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-content {
+        flex: 1;
+        text-align: left;
+    }
+
+    .hero-image {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    /* RESET GENERAL Y ESTILOS BASE */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-color: #FAFAFA;
+        color: #2C3E50;
+        line-height: 1.6;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        background-color: #FAFAFA;
+        border-bottom: 1px solid #EAEAEA;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    .logo {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        color: #2C3E50;
+    }
+
+    .logo span {
+        color: #E67E22;
+    }
+
+    .nav-menu a {
+        text-decoration: none;
+        color: #2C3E50;
+        font-weight: 600;
+        margin-left: 20px;
+        transition: color 0.3s;
+    }
+
+    .nav-menu a:hover {
+        color: #E67E22;
+    }
+
+    /* SECCIÓN HERO */
+    .hero {
+        background-color: #FAFAFA;
+        padding: 60px 0;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .hero-content h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        color: #555555;
+    }
+
+    .btn-primary {
+        display: inline-block;
+        background-color: #E67E22;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 15px 30px;
+        font-weight: 700;
+        border-radius: 30px;
+        font-size: 18px;
+        transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        background-color: #D35400;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 20px;
+    }
+
+    /* TÍTULOS DE SECCIÓN */
+    .section-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .section-title::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 4px;
+        background-color: #F39C12;
+        margin: 10px auto 0 auto;
+        border-radius: 2px;
+    }
+
+    /* SECCIÓN MENÚ (TARJETAS) */
+    .menu-section {
+        background-color: #FAFAFA;
+    }
+
+    .menu-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .menu-card {
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-badge {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background-color: #F39C12;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px 10px;
+        border-radius: 12px;
+        text-transform: uppercase;
+    }
+
+    .menu-card h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        margin-bottom: 10px;
+        padding-right: 80px;
+    }
+
+    .menu-card .description {
+        font-size: 15px;
+        color: #666666;
+        margin-bottom: 20px;
+    }
+
+    .menu-card .price {
+        font-size: 24px;
+        font-weight: 700;
+        color: #E67E22;
+        margin-bottom: 20px;
+    }
+
+    .btn-card {
+        display: block;
+        text-align: center;
+        background-color: #FFFFFF;
+        color: #E67E22;
+        border: 2px solid #E67E22;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-weight: 700;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-card:hover {
+        background-color: #E67E22;
+        color: #FFFFFF;
+    }
+
+    /* SECCIÓN CÓMO PEDIR */
+    .steps-section {
+        background-color: #FFFDF9;
+        border-top: 1px solid #FDF0D5;
+        border-bottom: 1px solid #FDF0D5;
+    }
+
+    .steps-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .step-card {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .step-number {
+        width: 50px;
+        height: 50px;
+        background-color: #F39C12;
+        color: #FFFFFF;
+        border-radius: 50%;
+        font-size: 24px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px auto;
+    }
+
+    .step-card h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .step-card p {
+        font-size: 15px;
+        color: #666666;
+    }
+
+    /* FOOTER */
+    .footer {
+        background-color: #2C3E50;
+        color: #FAFAFA;
+        text-align: center;
+        padding: 40px 0;
+        font-size: 14px;
+    }
+
+    .footer-content p {
+        margin-bottom: 8px;
+    }
+
+    /* BOTÓN FLOTANTE DE WHATSAPP */
+    .whatsapp-btn {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        background-color: #25D366;
+        color: #FFFFFF;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2000;
+        transition: transform 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+        transform: scale(1.1);
+    }
+
+    .whatsapp-icon {
+        width: 32px;
+        height: 32px;
+        fill: #FFFFFF;
+    }
+
+    /* RESPONSIVE DESIGN (Pantallas medianas y grandes) */
+    @media (min-width: 768px) {
+        .hero-container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .hero-content {
+            flex: 1;
+            text-align: left;
+        }
+
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+        }
+
+        .menu-grid {
+            flex-direction: row;
+        }
+
+        .menu-card {
+            flex: 1;
+        }
+
+        .steps-grid {
+            flex-direction: row;
+        }
+
+        .step-card {
+            flex: 1;
+        }
+    }
+
+    .menu-grid {
+        flex-direction: row;
+    }
+
+    .menu-card {
+        flex: 1;
+    }
+
+    .steps-grid {
+        flex-direction: row;
+    }
+
+    .step-card {
+        flex: 1;
+    }
+}
