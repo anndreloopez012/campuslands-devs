@@ -1,0 +1,9 @@
+======================================================================
+PIPELINE 3D - ARCHIVO DE ENTREGA OFICIAL (CONGELADO)
+======================================================================
+- Asset: Personaje Principal (Hero_Character)
+- Departamento: Entregas / Produccion Final
+- Estado: Aprobado por el Director de Arte (Listo para Rigging)
+- Codigo de Verificacion: DELIVERED-HERO-01
+- Version: personaje_final_v001
+======================================================================

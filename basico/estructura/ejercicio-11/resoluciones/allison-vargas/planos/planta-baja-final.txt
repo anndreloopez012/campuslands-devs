@@ -1,0 +1,8 @@
+======================================================================
+PLANO EJECUTIVO CONGELADO - PLANTA BAJA
+======================================================================
+- Estado: FINAL (Aprobado para calculo estructural)
+- Escala de Trabajo: 1:50
+- Ultima Revision: Modificaciones de ejes de columnas aplicadas.
+- Archivo fuente vinculado: modelos/estructura_central.3ds
+======================================================================

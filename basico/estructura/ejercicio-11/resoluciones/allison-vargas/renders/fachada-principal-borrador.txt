@@ -1,0 +1,7 @@
+======================================================================
+PREVISUALIZACION DE RENDER - FACHADA PRINCIPAL
+=========================================
+- Estado: BORRADOR (Prueba de motor de luz diurna y rebote de sombras)
+- Resolucion: 1280x720 pixeles (Baja calidad para velocidad de computo)
+- Nota: Pendiente aprobacion de materiales de piedra por el cliente.
+======================================================================
