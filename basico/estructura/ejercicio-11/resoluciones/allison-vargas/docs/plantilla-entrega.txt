@@ -1,0 +1,16 @@
+======================================================================
+PLANTILLA DE CONTROL DE ENTREGA ARQUITECTONICA
+======================================================================
+- Codigo de Proyecto: 
+- Nombre del Cliente: 
+- Ubicacion de la Obra: 
+- Fecha de Cierre: 
+
+CHECKLIST DE EXPEDIENTE COMPLETADO:
+[ ] Planos Ejecutivos Completos (Sufijo -final verificado)
+[ ] Maqueta 3D Consolidada (Sin referencias externas rotas)
+[ ] Renders de Alta Resolucion (Vistas estandarizadas cargadas)
+[ ] Listado de Materiales y Especificaciones de Acabados
+
+Aprobado por Arquitecto Supervisor: [Nombre y Firma]
+======================================================================

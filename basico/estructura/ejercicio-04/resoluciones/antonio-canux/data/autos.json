@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "marca": "BMW",
+    "modelo": "M5 Competition",
+    "año": 2024,
+    "precio": 120000,
+    "color": "Negro"
+  },
+  {
+    "id": 2,
+    "marca": "Mercedes-Benz",
+    "modelo": "AMG GT",
+    "año": 2024,
+    "precio": 145000,
+    "color": "Plata"
+  },
+  {
+    "id": 3,
+    "marca": "Porsche",
+    "modelo": "911 Turbo S",
+    "año": 2025,
+    "precio": 210000,
+    "color": "Plata"
+  },
+  {
+    "id": 4,
+    "marca": "Ferrari",
+    "modelo": "SF90 Stradale",
+    "año": 2019,
+    "precio": 524000,
+    "color": "Rojo"
+  }
+]
