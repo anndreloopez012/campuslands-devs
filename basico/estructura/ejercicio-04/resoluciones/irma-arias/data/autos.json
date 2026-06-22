@@ -1,0 +1,25 @@
+// src/visualizacion.js
+
+const autos = require('../data/autos.json');
+
+/**
+ * Función para mostrar el catálogo de autos en consola.
+ * Valida que los precios sean positivos.
+ */
+function mostrarCatalogo(listaAutos) {
+    console.log("--- Catálogo de Autos de Lujo ---");
+    
+    listaAutos.forEach(auto => {
+        if (auto.precio > 0) {
+            console.log(`Auto: ${auto.marca
+            } ${auto.modelo
+            } | Precio: $${auto.precio
+            }`);
+        } else {
+            console.warn(`Alerta: El auto ${auto.marca
+            } tiene un precio inválido.`);
+        }
+    });
+}
+// Ejecutamos la función
+mostrarCatalogo(autos);
