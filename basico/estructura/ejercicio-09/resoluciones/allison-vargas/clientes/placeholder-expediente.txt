@@ -1,0 +1,18 @@
+======================================================================
+SISTEMA DE SEGURIDAD - PLACEHOLDER DE EXPEDIENTE DE CLIENTE
+======================================================================
+
+AVISO DE CONFIDENCIALIDAD:
+De acuerdo con las politicas de privacidad del estudio y el reglamento
+de Campuslands Devs, los datos sensibles del cliente (nombres,
+telefonos, firmas de consentimiento y fotografias de la piel) han sido
+reemplazados por este marcador de posicion anonimo.
+
+Para verificar la estructura del expediente en produccion, use las
+siguientes llaves estandarizadas en la base de datos protegida:
+
+- idCliente: "String unico anonimizado (e.g., cli-808)"
+- consentimientoFirmado: "Boolean (true/false)"
+- restriccionesMedicas: "Array de alergias o condiciones"
+- enlaceFotografiaSegura: "Ruta interna cifrada al servidor local"
+======================================================================

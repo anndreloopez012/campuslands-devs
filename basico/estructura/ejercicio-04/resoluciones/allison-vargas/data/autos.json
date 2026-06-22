@@ -1,0 +1,35 @@
+[
+    {
+      "id": "car-001",
+      "brand": "Ferrari",
+      "model": "SF90 Stradale",
+      "year": 2024,
+      "engine": "V8 Turbo Hybrid",
+      "horsepower": 1000,
+      "priceUSD": 524000,
+      "imageName": "ferrari-sf90-stradale-2024.jpg",
+      "inStock": true
+    },
+    {
+      "id": "car-002",
+      "brand": "Lamborghini",
+      "model": "Revuelto",
+      "year": 2025,
+      "engine": "V12 Hybrid",
+      "horsepower": 1015,
+      "priceUSD": 608000,
+      "imageName": "lamborghini-revuelto-2025.jpg",
+      "inStock": false
+    },
+    {
+      "id": "car-003",
+      "brand": "Porsche",
+      "model": "911 GT3 RS",
+      "year": 2024,
+      "engine": "6-Cilindros Boxer",
+      "horsepower": 525,
+      "priceUSD": 241300,
+      "imageName": "porsche-911-gt3rs-2024.jpg",
+      "inStock": true
+    }
+  ]

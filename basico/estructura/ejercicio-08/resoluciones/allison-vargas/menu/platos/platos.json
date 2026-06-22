@@ -1,0 +1,20 @@
+[
+    {
+      "id": "plt-101",
+      "nombre": "Hamburguesa Smash Premium",
+      "categoria": "Platos Fuertes",
+      "precioBaseGTQ": 45.00,
+      "ingredientes": ["Doble carne angus", "Queso cheddar", "Pan brioche", "Salsa secreta"],
+      "archivoFoto": "hamburguesa-smash-premium.jpg",
+      "disponible": true
+    },
+    {
+      "id": "plt-102",
+      "nombre": "Papas Supremas Urbanas",
+      "categoria": "Entradas",
+      "precioBaseGTQ": 30.00,
+      "ingredientes": ["Papas fritas", "Tocino picado", "Crema agria", "Cebollin"],
+      "archivoFoto": "papas-supremas-urbanas.jpg",
+      "disponible": true
+    }
+  ]

@@ -1,0 +1,24 @@
+======================================================================
+CONVENCION DE NOMBRADO PARA PORTADAS DE LIBROS (COVERS)
+======================================================================
+
+Para automatizar la vinculacion entre el catalogo JSON y las imagenes 
+del servidor, se establece la siguiente politica de nomenclatura:
+
+1. FORMATO REQUERIDO:
+   [isbn-sin-guiones]-[titulo-del-libro].[extension]
+
+2. REGLAS OBLIGATORIAS:
+   - Eliminar por completo los guiones (-) del numero ISBN.
+   - El titulo debe escribirse en minusculas y separado por guiones.
+   - No se permiten espacios en blanco, acentos ni caracteres especiales.
+   - Extensiones de archivo admitidas: .jpg o .png de alta resolucion.
+
+3. EJEMPLOS CORRECTOS:
+   97804eae06843-dune.jpg
+   9780345347954-neuromante.png
+
+4. EJEMPLOS INCORRECTOS:
+   Dune Cover.JPG (Falta el ISBN, contiene mayusculas y espacios)
+   978-0345-Neuromante.png (Conserva los guiones originales del ISBN)
+======================================================================

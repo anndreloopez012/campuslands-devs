@@ -1,0 +1,23 @@
+[
+    {
+      "rank": 1,
+      "nickname": "FakerJunior",
+      "mainChampion": "Azir",
+      "mmr": 3200,
+      "winRate": "68%"
+    },
+    {
+      "rank": 2,
+      "nickname": "MobaQueen",
+      "mainChampion": "Jinx",
+      "mmr": 2950,
+      "winRate": "61%"
+    },
+    {
+      "rank": 3,
+      "nickname": "SupportDiff",
+      "mainChampion": "Thresh",
+      "mmr": 2800,
+      "winRate": "59%"
+    }
+  ]

@@ -1,0 +1,14 @@
+[
+    {
+    "id":1,
+    "nombre": "Antigua Guatemala",
+    "pais": "Guatemala",
+    "precioUSD": 150
+},
+ {
+    "id":2,
+    "nombre": "Torre Eiffel",
+    "pais": "Francia",
+    "precioUSD": 200
+}
+]
