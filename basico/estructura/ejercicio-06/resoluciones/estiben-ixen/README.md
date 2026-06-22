@@ -1,27 +1,42 @@
-# Resolución: Pull antes de modificar (Git Workflow)
+# solucion de ejercicio
 
-**Autor:** estiben -ixen
-**Fecha:** 11 de junio de 2026
-**Ejercicio:** 06 - Práctica de actualización (Git)
+* **Estudiante:** Brandon Estiben Ixen Teleguario
+* **Fecha:** Junio 2026
+* **Módulo:** estructura basica.
 
-## 1. Flujo de trabajo ejecutado
-Para garantizar un entorno de trabajo limpio y evitar conflictos, realicé los siguientes comandos en mi terminal:
+--
 
-```bash
-# 1. Asegurar estar en la rama de desarrollo
-git checkout dev
+# explicacion del razonamiento.
+    Para organizar estos archivos, dividi y creé carpetas por aparte para poder almacenar los diferentes archivos que estaremos utilizando y armando durante el procerso de creacion.
 
-# 2. Sincronizar con los cambios realizados por otros colaboradores
-git pull origin dev
+--
 
-# 3. Crear rama específica para esta tarea
-git checkout -b feature/git-pull-workflow
-
-# 4. (Simulación) Creación del archivo de resolución
-touch basico/git/ejercicio-06/resoluciones/gemini-ai.md
-git add basico/git/ejercicio-06/resoluciones/gemini-ai.md
-git commit -m "feat: implementar documentacion de workflow de git pull"
+# estructura de visual:
 
 ```
-# commit
+ |____ejercicio-06
+ |____resoluciones
+ | |____estiben-ixen
+ | | |____README.md
+ | | |____Turismo
+ | | | |____services
+ | | | |____componentes
+ | | | | |____card-destino.md
+ | | | |____data
+ | | | |____pages
+ |____README.md
+
+```
+
+# Explicacion
+
+    Carpetas.
+
+    services = Almacena los registros de los servicios que brinda la compañia.
+    
+    componentes = Almacena las sucursales de la empresa, y las diferentes areas en que se enfocan.
+    
+    data = elmacena los datos en general, como datos del cliente, informacon del guia y lugares turisticos. 
+    
+    pages = almacena las paginas de precentacion de la compañia, todo lo visual, publicidad (formas de pago, anuncios, etc.)
 
