@@ -1,0 +1,10 @@
+{
+    "taller": "MotoService Pro",
+    "version": "1.0.0",
+    "modulos_activos": [
+        "clientes",
+        "motos",
+        "ordenes"
+    ],
+    "moneda": "GTQ"
+}
