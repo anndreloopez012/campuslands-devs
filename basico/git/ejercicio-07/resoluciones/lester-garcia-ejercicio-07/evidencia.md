@@ -1,8 +1,4 @@
-# Fusion de rama de trabajo hacia otra rama de integración.
-
-### Alumno:Lester Garcia.
-
-## Evidencia
+c
 1. La imagen representa la creacion de una nueva rama en el repositorio local.
 
 ![creacion e rama](./evidencia/1.png)
