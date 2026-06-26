@@ -1,0 +1,1 @@
+const datos = require('../data/player.json');

@@ -1,0 +1,19 @@
+{
+    "environment": "development",
+    "server": {
+      "port": 3000,
+      "apiPrefix": "/api/v1/workshop"
+    },
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "databaseName": "taller_motos_db",
+      "user": "TU_USUARIO_AQUÍ",
+      "password": "TU_CONTRASEÑA_AQUÍ"
+    },
+    "workshopConfig": {
+      "currency": "GTQ",
+      "defaultTaxRate": 0.12,
+      "maxActiveOrdersPerMechanic": 3
+    }
+  }
