@@ -1,0 +1,14 @@
+[
+    {
+        "id": "A001",
+        "marca": "Rolls-Royce",
+        "modelo": "Phantom",
+        "precio": 450000
+    },
+    {
+        "id": "A002",
+        "marca": "Bentley",
+        "modelo": "Continental",
+        "precio": 250000
+    }
+]
