@@ -1,0 +1,28 @@
+[
+  {
+    "id": "cmb-001",
+    "nombre": "Combo Urbano Clásico",
+    "descripcion": "1 Hamburguesa Clásica + 1 Porción de Papas Fritas + 1 Gaseosa de Cola.",
+    "precio_regular": 70.00,
+    "precio_promocion": 55.00,
+    "disponible": true,
+    "items_incluidos": [
+      "plt-001", 
+      "beb-003"
+    ],
+    "imagen_path": "assets/photos/combo_clasico.jpg"
+  },
+  {
+    "id": "cmb-002",
+    "nombre": "Dúo Taquero",
+    "descripcion": "2 órdenes de Tacos al Pastor y 2 Cervezas Artesanales.",
+    "precio_regular": 120.00,
+    "precio_promocion": 100.00,
+    "disponible": false,
+    "items_incluidos": [
+      "plt-002", 
+      "beb-002"
+    ],
+    "imagen_path": "assets/photos/combo_duo_taquero.jpg"
+  }
+]
