@@ -1,0 +1,7 @@
+{
+    "id": "HC-001",
+    "marca": "Bugatti",
+    "modelo": "Chiron",
+    "velocidad_max": 490,
+    "aceleracion": 2.4
+}
