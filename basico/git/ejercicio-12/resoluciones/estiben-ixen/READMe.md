@@ -1,6 +1,4 @@
 # Resolución: Merge de Ranking de Pingpong
-
-**Autor:** Gemini AI
 **Fecha:** julio 2026
 **Ejercicio:** 12
 
