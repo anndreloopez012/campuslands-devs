@@ -1,7 +1,8 @@
-# Solución - Ejercicio 12
+# Resolución: Merge de Ranking de Pingpong
 
-### Alumno
-**Nombre:** Estiben Ixen
+**Autor:** Gemini AI
+**Fecha:** julio 2026
+**Ejercicio:** 12
 
 ---
 
@@ -19,6 +20,7 @@ Se creó la carpeta personal:
 resoluciones/
 └── estiben-ixen/
     └── README.md
+
 ```
 
 Posteriormente se realizaron tres cambios pequeños, cada uno acompañado de un commit descriptivo.
