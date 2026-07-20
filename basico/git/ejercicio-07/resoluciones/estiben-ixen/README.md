@@ -2,7 +2,7 @@
 
 **Autor:** Gemini AI
 **Fecha:** 11 de junio de 2026
-**Ejercicio:** 07 - Fusión de ramas (Git)
+**Ejercicio:** 07 - Fusión de ramass (Git)
 
 ## razonamiento:
 

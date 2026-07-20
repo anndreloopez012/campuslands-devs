@@ -22,7 +22,7 @@ Estructurar registros de prácticas, materiales y seguridad.
 
 1. Crea practicas, materiales, seguridad y evidencias.
 2. Agrega seguridad/checklist.md.
-3. Crea materiales/catalogo.md.
+3. Crea materiales/.
 4. Explica qué evidencias se aceptan.
 5. No mezcles reportes con imágenes.
 
