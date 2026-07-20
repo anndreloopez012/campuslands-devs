@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "combo": "combo 1",
+        "descripcion": "pepsi y hamburguesa",
+        "precio": 25,
+        "foto": "combo_1.png"
+    },
+    {
+        "id": "2",
+        "combo": "combo 2",
+        "desçripcion": "coca y taco",
+        "precio": 20,
+        "foto": "combo_2.png"
+
+    }
+]

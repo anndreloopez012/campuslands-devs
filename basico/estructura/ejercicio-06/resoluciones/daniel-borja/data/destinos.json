@@ -1,0 +1,18 @@
+[
+    {
+        "id": "DEST-001",
+        "nombre": "Tikal",
+        "pais": "Guatemala",
+        "precioPorNocheUSD": 145,
+        "disponible": true,
+        "cuposRestantes": 5
+    },
+    {
+        "id": "DEST-002",
+        "nombre": "Machu Picchu",
+        "pais": "Perú",
+        "precioPorNocheUSD": 210,
+        "disponible": false,
+        "cuposRestantes": 0
+    }
+]

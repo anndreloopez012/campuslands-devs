@@ -1,0 +1,20 @@
+[
+    {
+        "id": "FER-ROMA-2024",
+        "marca": "Ferrari",
+        "modelo": "Roma",
+        "año": 2024,
+        "precioUSD": 250000,
+        "disponibilidad": true,
+        "imagenRuta": "assets/cars/ferrari-roma-2024.jpg"
+    },
+    {
+        "id": "POR-911-2024",
+        "marca": "Porsche",
+        "modelo": "911 Carrera",
+        "año": 2024,
+        "precioUSD": 120000,
+        "disponibilidad": false,
+        "imagenRuta": "assets/cars/porsche-911-2024.jpg"
+    }
+]

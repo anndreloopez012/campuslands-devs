@@ -1,0 +1,18 @@
+[
+    {
+        "idProducto": "PLT-001",
+        "nombre": "Hamburguesa Urbana Especial",
+        "categoria": "platos",
+        "precioBase": 8.50,
+        "disponible": true,
+        "fotoRuta": "assets/photos/burger-clasica.jpg"
+    },
+    {
+        "idProducto": "PLT-002",
+        "nombre": "Papas Fritas Suprema",
+        "categoria": "platos",
+        "precioBase": 4.00,
+        "disponible": false,
+        "fotoRuta": "assets/photos/papas-suprema.jpg"
+    }
+]

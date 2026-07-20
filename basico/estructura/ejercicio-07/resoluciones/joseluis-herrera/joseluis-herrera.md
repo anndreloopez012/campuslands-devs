@@ -1,0 +1,2 @@
+## Explicacion 
+se realizo una organizacion de carpetas para una biblioteca en la cual encontraremos una carpeta que se llamara libros es donde se guardan toda la informacion de cada uno de los libros que se encuentran en la biblioteca y en review se encontraran reseñas y portadas de los libros tambien que se encuentran en la biblioteca

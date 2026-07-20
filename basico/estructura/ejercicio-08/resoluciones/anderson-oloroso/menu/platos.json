@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "plato": "Pepián (Guatemala)",
+    "descripcion": "Guiso espeso preparado con una mezcla de especias tostadas, normalmente con carne o pollo.",
+    "ingredientes_comunes": ["chile", "semillas molidas", "tomate", "cebolla", "ajonjolí"],
+    "ocasiones": ["fiestas familiares", "celebraciones"]
+  },
+  {
+    "id": 2,
+    "plato": "Paches",
+    "descripcion": "Tamales grandes rellenos, envueltos en hojas de elote, cocidos al vapor o hervidos.",
+    "ingredientes_comunes": ["masa de maíz", "pepita/semillas", "carne de cerdo", "tomate", "hojas de elote"],
+    "ocasiones": ["Semana Santa", "festividades"]
+  },
+  {
+    "id": 3,
+    "plato": "Hilachas",
+    "descripcion": "Carne deshebrada en salsa con tomate y especias, servida usualmente con tortillas y frijoles.",
+    "ingredientes_comunes": ["res (o cerdo)", "tomate", "cebolla", "ajo", "especias"],
+    "ocasiones": ["almuerzos", "comidas caseras"]
+  },
+  {
+    "id": 4,
+    "plato": "Kak'ik",
+    "descripcion": "Sopa tradicional de origen maya, de sabor intenso y con chile, frecuentemente hecha con carne de pavo o pollo.",
+    "ingredientes_comunes": ["tomate", "chile", "hojas/aromáticos (según región)", "carne (pavo o pollo)", "especias"],
+    "ocasiones": ["días festivos", "comidas tradicionales"]
+  }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "id": "1",
+        "plato": "tacos",
+        "precio": 20,
+        "foto": "tacos.png"
+    },
+    {
+        "id": "2",
+        "plato": "hamburguesa",
+        "precio": 25,
+        "foto": "hamburguesa.png"
+
+    }
+]

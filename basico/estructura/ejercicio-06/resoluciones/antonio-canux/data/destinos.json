@@ -1,0 +1,20 @@
+[
+  {
+    "id": "DEST-001",
+    "nombre": "Antigua Guatemala",
+    "region": "Sacatepéquez",
+    "precio_noche": 120.50,
+    "disponible": true,
+    "etiquetas": ["colonial", "volcanes", "cultura"],
+    "imagen_portada": "/assets/img/antigua.jpg"
+  },
+  {
+    "id": "DEST-002",
+    "nombre": "Lago de Atitlán",
+    "region": "Sololá",
+    "precio_noche": 85.00,
+    "disponible": true,
+    "etiquetas": ["naturaleza", "lago", "relajación"],
+    "imagen_portada": "/assets/img/atitlan.jpg"
+  }
+]

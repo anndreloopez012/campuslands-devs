@@ -1,0 +1,21 @@
+{
+  "libro": {
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "anio_publicacion": 1943,
+    "genero": ["Fábula", "Novela corta", "Literatura infantil"],
+    "idioma_original": "Francés",
+    "personajes_principales": [
+      "El Principito",
+      "El Aviador",
+      "La Rosa",
+      "El Zorro"
+    ],
+    "temas": [
+      "Amistad",
+      "Soledad",
+      "Amor",
+      "Sentido de la vida"
+    ]
+  }
+}

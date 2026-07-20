@@ -1,0 +1,26 @@
+[
+  {
+    "id": "beb-001",
+    "nombre": "Limonada con Hierbabuena",
+    "descripcion": "Refrescante limonada natural frozen con un toque de hierbabuena fresca, 16 oz.",
+    "precio": 15.00,
+    "disponible": true,
+    "imagen_path": "assets/photos/limonada_hierbabuena.jpg"
+  },
+  {
+    "id": "beb-002",
+    "nombre": "Cerveza Artesanal Local",
+    "descripcion": "Cerveza estilo IPA de barril, 355 ml.",
+    "precio": 25.00,
+    "disponible": false,
+    "imagen_path": "assets/photos/cerveza_artesanal.jpg"
+  },
+  {
+    "id": "beb-003",
+    "nombre": "Gaseosa de Cola",
+    "descripcion": "Bebida carbonatada tradicional, 600 ml.",
+    "precio": 12.00,
+    "disponible": true,
+    "imagen_path": "assets/photos/soda_cola.jpg"
+  }
+]
