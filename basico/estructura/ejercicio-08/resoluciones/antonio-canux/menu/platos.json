@@ -1,0 +1,18 @@
+[
+  {
+    "id": "plt-001",
+    "nombre": "Hamburguesa Clásica",
+    "descripcion": "Carne de res de 150g, lechuga fresca, tomate y queso cheddar.",
+    "precio": 45.00,
+    "disponible": true,
+    "imagen_path": "assets/photos/hamburguesa_clasica.jpg"
+  },
+  {
+    "id": "plt-002",
+    "nombre": "Tacos al Pastor",
+    "descripcion": "Orden de 3 tacos tradicionales con piña, cilantro y cebolla.",
+    "precio": 35.00,
+    "disponible": true,
+    "imagen_path": "assets/photos/tacos_pastor.jpg"
+  }
+]

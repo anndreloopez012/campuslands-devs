@@ -1,0 +1,20 @@
+[
+    {
+        "idBook": "978-0451450523",
+        "titulo": "Neuromante",
+        "autor": "William Gibson",
+        "añoPublicacion": 1984,
+        "subgenero": "Cyberpunk",
+        "portadaRuta": "books/covers/978-0451450523.jpg",
+        "stockDigital": 14
+    },
+    {
+        "idBook": "978-0006483823",
+        "titulo": "Dune",
+        "autor": "Frank Herbert",
+        "añoPublicacion": 1965,
+        "subgenero": "Space Opera",
+        "portadaRuta": "books/covers/978-0006483823.jpg",
+        "stockDigital": 0
+    }
+]

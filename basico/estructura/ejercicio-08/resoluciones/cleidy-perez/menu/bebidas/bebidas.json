@@ -1,0 +1,14 @@
+[
+    {
+    "id": "1",
+    "bebida": "coca-cola",
+    "precio": 5,
+    "foto": "bebida_coca_cola-png"
+},
+{
+    "id": "2",
+    "bebida": "pespi",
+    "precio": 4,
+    "foto": "bebida_pepsi.png"
+}
+]

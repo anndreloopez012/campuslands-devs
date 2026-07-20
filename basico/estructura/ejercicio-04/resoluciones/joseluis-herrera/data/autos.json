@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "año": 2022,
+      "precio": 22000,
+      "color": "Blanco",
+      "estado": "Nuevo",
+      "detalles": {
+        "motor": "1.8L",
+        "combustible": "Gasolina",
+        "transmision": "Automática"
+      }
+    },
+    {
+      "id": 2,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "año": 2021,
+      "precio": 21000,
+      "color": "Negro",
+      "estado": "Usado",
+      "detalles": {
+        "motor": "2.0L",
+        "combustible": "Gasolina",
+        "transmision": "Manual"
+      }
+    },
+    {
+      "id": 3,
+      "marca": "Tesla",
+      "modelo": "Model 3",
+      "año": 2023,
+      "precio": 35000,
+      "color": "Rojo",
+      "estado": "Nuevo",
+      "detalles": {
+        "motor": "Eléctrico",
+        "autonomia": "500 km",
+        "transmision": "Automática"
+      }
+    }
+]

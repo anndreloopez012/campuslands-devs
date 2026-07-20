@@ -1,0 +1,47 @@
+[
+  {
+    "nombre": "Selvin",
+    "rol": "Top",
+    "kills": 5,
+    "deaths": 3,
+    "assists": 2,
+    "oro": 13000,
+    "objetivos": 3
+  },
+  {
+    "nombre": "Andrea",
+    "rol": "Jungla",
+    "kills": 2,
+    "deaths": 4,
+    "assists": 10,
+    "oro": 9000,
+    "objetivos": 1
+  },
+  {
+    "nombre": "Marco",
+    "rol": "Mid",
+    "kills": 8,
+    "deaths": 2,
+    "assists": 4,
+    "oro": 14500,
+    "objetivos": 2
+  },
+  {
+    "nombre": "Lucia",
+    "rol": "ADC",
+    "kills": 10,
+    "deaths": 1,
+    "assists": 3,
+    "oro": 15000,
+    "objetivos": 4
+  },
+  {
+    "nombre": "Diego",
+    "rol": "Soporte",
+    "kills": 0,
+    "deaths": 2,
+    "assists": 15,
+    "oro": 7000,
+    "objetivos": 1
+  }
+]

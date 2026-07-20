@@ -1,0 +1,13 @@
+services:
+  campuslands-package:
+    build:
+      context: .
+      dockerfile: Dockerfile.package
+      args:
+        REPOSITORY_NAME: campuslands-devs
+        REPOSITORY_URL: https://github.com/anndreloopez012/campuslands-devs
+    image: ghcr.io/anndreloopez012/campuslands-devs:local
+    container_name: campuslands-devs-docs
+    ports:
+      - "8080:80"
+    restart: unless-stopped

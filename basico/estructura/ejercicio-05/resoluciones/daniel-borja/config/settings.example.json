@@ -1,0 +1,6 @@
+{
+    "ENVIRONMENT": "development",
+    "SERVER_PORT": 3000,
+    "DATABASE_URL": "postgresql://usuario:contraseña@localhost:5432/taller_motos_db",
+    "MAX_REPARACIONES_SIMULTANEAS": 10
+}
