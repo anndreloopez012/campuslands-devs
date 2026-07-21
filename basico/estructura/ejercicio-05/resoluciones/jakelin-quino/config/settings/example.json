@@ -1,0 +1,7 @@
+{
+  "taller": "MotoCenter",
+  "horario": "08:00-18:00",
+  "diasLaborales": ["Lun-Vie"],
+  "iva": 0.16,
+  "tiempoMaximoDiagnostico": 2
+}

@@ -1,0 +1,8 @@
+{
+  "modelo": "Ferrari F8",
+  "velocidadMax": 340,
+  "aceleracion": 2.9,
+  "peso": 1435,
+  "potencia": 720,
+  "tipo": "hiperdeportivo"
+}

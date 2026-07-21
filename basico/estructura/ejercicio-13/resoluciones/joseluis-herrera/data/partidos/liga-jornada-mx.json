@@ -1,0 +1,22 @@
+    {
+    "liga": "Liga MX",
+    "jornada": 1,
+    "partidos": [
+        {
+        "id_partido": "mx-j1-01",
+        "local": "ame",
+        "visitante": "cua",
+        "goles_local": 3,
+        "goles_visitante": 1,
+        "estado": "finalizado"
+        },
+        {
+        "id_partido": "mx-j1-02",
+        "local": "tig",
+        "visitante": "ray",
+        "goles_local": null,
+        "goles_visitante": null,
+        "estado": "programado"
+        }
+    ]
+    }

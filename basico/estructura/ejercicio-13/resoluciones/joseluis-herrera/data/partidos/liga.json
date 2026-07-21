@@ -1,0 +1,24 @@
+    {
+    "liga": "La Liga",
+    "temporada": "2026-2027",
+    "equipos": [
+        {
+        "id": "rma",
+        "nombre": "Real Madrid",
+        "ciudad": "Madrid",
+        "estadio": "Santiago Bernabéu"
+        },
+        {
+        "id": "fcb",
+        "nombre": "FC Barcelona",
+        "ciudad": "Barcelona",
+        "estadio": "Spotify Camp Nou"
+        },
+        {
+        "id": "atm",
+        "nombre": "Atlético de Madrid",
+        "ciudad": "Madrid",
+        "estadio": "Cívitas Metropolitano"
+        }
+    ]
+    }

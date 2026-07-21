@@ -1,0 +1,4 @@
+[
+  { "id": 1, "nombre": "Hamburguesa", "precio": 12000, "ingredientes": ["carne", "pan", "queso"] },
+  { "id": 2, "nombre": "Pizza", "precio": 15000, "ingredientes": ["masa", "tomate", "queso"] }
+]
