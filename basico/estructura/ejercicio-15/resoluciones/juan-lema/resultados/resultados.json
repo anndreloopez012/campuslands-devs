@@ -1,0 +1,23 @@
+[
+  {
+    "pilotoId": "p03",
+    "nombre": "Marcus Steel",
+    "vehiculo": "Sombra V12",
+    "tiempoTotalSegundos": 1050.5,
+    "posicion": 1
+  },
+  {
+    "pilotoId": "p01",
+    "nombre": "Kaito Ryo",
+    "vehiculo": "Fenix GT",
+    "tiempoTotalSegundos": 1079.6,
+    "posicion": 2
+  },
+  {
+    "pilotoId": "p02",
+    "nombre": "Lucia Ferreira",
+    "vehiculo": "Tormenta X",
+    "tiempoTotalSegundos": 1098.6,
+    "posicion": 3
+  }
+]

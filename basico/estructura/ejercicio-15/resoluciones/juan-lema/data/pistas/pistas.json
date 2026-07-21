@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pi01",
+    "nombre": "Circuito Costa Norte",
+    "largoKm": 5.2,
+    "vueltas": 10
+  },
+  {
+    "id": "pi02",
+    "nombre": "Anillo Central",
+    "largoKm": 3.8,
+    "vueltas": 15
+  }
+]

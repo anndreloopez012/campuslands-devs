@@ -1,0 +1,23 @@
+[
+  {
+    "id": "v01",
+    "nombre": "Fenix GT",
+    "velocidadMax": 340,
+    "aceleracion": 2.8,
+    "manejo": 8.5
+  },
+  {
+    "id": "v02",
+    "nombre": "Tormenta X",
+    "velocidadMax": 355,
+    "aceleracion": 2.6,
+    "manejo": 8.0
+  },
+  {
+    "id": "v03",
+    "nombre": "Sombra V12",
+    "velocidadMax": 330,
+    "aceleracion": 3.0,
+    "manejo": 9.0
+  }
+]
