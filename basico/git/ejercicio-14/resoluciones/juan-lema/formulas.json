@@ -1,0 +1,7 @@
+[
+  { "compuesto": "Agua", "formula": "H2O" },
+  { "compuesto": "Dioxido de carbono", "formula": "CO2" },
+  { "compuesto": "Cloruro de sodio", "formula": "NaCl" },
+  { "compuesto": "Glucosa", "formula": "C6H12O6" },
+  { "compuesto": "Amoniaco", "formula": "NH3" }
+]
