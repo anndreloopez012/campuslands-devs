@@ -1,0 +1,8 @@
+{
+  "liga": "liga-nacional",
+  "jornada": 1,
+  "partidos": [
+    { "local": "LN01", "visitante": "LN02", "golesLocal": 2, "golesVisitante": 1 },
+    { "local": "LN03", "visitante": "LN04", "golesLocal": 0, "golesVisitante": 0 }
+  ]
+}
