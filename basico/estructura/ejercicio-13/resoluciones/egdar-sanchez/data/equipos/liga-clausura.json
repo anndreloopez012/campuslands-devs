@@ -1,0 +1,34 @@
+[
+  {
+    "id": "comunicaciones-fc",
+    "nombre": "Comunicaciones FC",
+    "ciudad": "Ciudad de Guatemala",
+    "fundacion": 1949,
+    "estadio": "Estadio Doroteo Guamuch Flores",
+    "colores": ["blanco", "azul"]
+  },
+  {
+    "id": "deportivo-petapa",
+    "nombre": "Deportivo Petapa",
+    "ciudad": "Villa Canales",
+    "fundacion": 1970,
+    "estadio": "Estadio Julio Armando Cerna Roldán",
+    "colores": ["naranja", "negro"]
+  },
+  {
+    "id": "cobán-imperial",
+    "nombre": "Cobán Imperial",
+    "ciudad": "Cobán",
+    "fundacion": 1924,
+    "estadio": "Estadio José Ángel Rossi Asturias",
+    "colores": ["verde", "blanco"]
+  },
+  {
+    "id": "malacateco-fc",
+    "nombre": "Malacateco FC",
+    "ciudad": "Malacatán",
+    "fundacion": 1962,
+    "estadio": "Estadio Juan Jacobo Árbenz",
+    "colores": ["blanco", "verde"]
+  }
+]

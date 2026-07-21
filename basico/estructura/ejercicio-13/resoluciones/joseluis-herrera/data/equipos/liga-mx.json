@@ -1,0 +1,30 @@
+    {
+    "liga": "Liga MX",
+    "temporada": "2026-2027",
+    "equipos": [
+        {
+        "id": "ame",
+        "nombre": "Club América",
+        "ciudad": "Ciudad de México",
+        "estadio": "Estadio Azteca"
+        },
+        {
+        "id": "cua",
+        "nombre": "Cruz Azul",
+        "ciudad": "Ciudad de México",
+        "estadio": "Estadio Ciudad de los Deportes"
+        },
+        {
+        "id": "tig",
+        "nombre": "Tigres UANL",
+        "ciudad": "Monterrey",
+        "estadio": "Estadio Universitario"
+        },
+        {
+        "id": "ray",
+        "nombre": "Rayados de Monterrey",
+        "ciudad": "Monterrey",
+        "estadio": "Estadio BBVA"
+        }
+    ]
+    }

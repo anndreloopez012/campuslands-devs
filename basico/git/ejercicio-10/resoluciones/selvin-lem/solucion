@@ -1,0 +1,19 @@
+# Resumen - Revertir idea sin borrar historial
+
+## Planteamiento del problema
+Se requería agregar un commit con un dato incorrecto y deshacerlo usando `git revert`, sin recurrir a `git reset`, conservando el historial completo.
+
+## Cómo se llevó a cabo
+1. Se creó `autos.md` con un commit base correcto.
+2. Se agregó un segundo commit con un dato incorrecto (auto con año imposible).
+3. Se usó `git revert HEAD` para generar un commit inverso que deshace el cambio.
+4. Se validó el log confirmando que ambos commits (el erróneo y su reversión) quedan visibles.
+5. Se explicó por qué revert es más seguro que reset en ramas compartidas.
+
+## Pasos seguidos
+- `git checkout dev` + `git pull`
+- `git checkout -b alumno/selvin-lem/ejercicio-10`
+- Crear `autos.md` con commit correcto
+- Agregar commit con dato incorrecto
+- `git revert HEAD`
+- Documentar evidencia y `git push -u origin <rama>`

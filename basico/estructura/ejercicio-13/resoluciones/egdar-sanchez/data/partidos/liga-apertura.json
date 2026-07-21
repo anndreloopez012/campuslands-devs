@@ -1,0 +1,35 @@
+[
+  {
+    "id": "partido-001",
+    "fecha": "2024-08-04",
+    "jornada": 1,
+    "local": "comunicaciones-fc",
+    "visitante": "municipal-fc",
+    "goles_local": 2,
+    "goles_visitante": 1,
+    "estadio": "Estadio Doroteo Guamuch Flores",
+    "estado": "finalizado"
+  },
+  {
+    "id": "partido-002",
+    "fecha": "2024-08-05",
+    "jornada": 1,
+    "local": "xelajú-mc",
+    "visitante": "antigua-gfc",
+    "goles_local": 0,
+    "goles_visitante": 0,
+    "estadio": "Estadio Mario Camposeco",
+    "estado": "finalizado"
+  },
+  {
+    "id": "partido-003",
+    "fecha": "2024-08-11",
+    "jornada": 2,
+    "local": "municipal-fc",
+    "visitante": "antigua-gfc",
+    "goles_local": null,
+    "goles_visitante": null,
+    "estadio": "Estadio El Trébol",
+    "estado": "pendiente"
+  }
+]

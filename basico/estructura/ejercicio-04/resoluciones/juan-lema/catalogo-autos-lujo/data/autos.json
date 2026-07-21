@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "marca": "Ferrari",
+    "modelo": "SF90 Stradale",
+    "anio": 2023,
+    "precioUSD": 507300,
+    "categoria": "Hypercar",
+    "imagen": "assets/cars/ferrari-sf90-stradale-2023.jpg"
+  },
+  {
+    "id": 2,
+    "marca": "Lamborghini",
+    "modelo": "Revuelto",
+    "anio": 2024,
+    "precioUSD": 608358,
+    "categoria": "Hypercar",
+    "imagen": "assets/cars/lamborghini-revuelto-2024.jpg"
+  },
+  {
+    "id": 3,
+    "marca": "Bentley",
+    "modelo": "Continental GT",
+    "anio": 2022,
+    "precioUSD": 232725,
+    "categoria": "Gran Turismo",
+    "imagen": "assets/cars/bentley-continental-gt-2022.jpg"
+  },
+  {
+    "id": 4,
+    "marca": "Rolls-Royce",
+    "modelo": "Phantom",
+    "anio": 2021,
+    "precioUSD": 460000,
+    "categoria": "Sedan de lujo",
+    "imagen": "assets/cars/rolls-royce-phantom-2021.jpg"
+  },
+  {
+    "id": 5,
+    "marca": "Aston Martin",
+    "modelo": "DBS",
+    "anio": 2020,
+    "precioUSD": 0,
+    "categoria": "Gran Turismo",
+    "imagen": "assets/cars/aston-martin-dbs-2020.jpg"
+  }
+]

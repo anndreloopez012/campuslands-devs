@@ -1,0 +1,8 @@
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+
+# Imágenes pesadas en crudo (RAW/PSD gigantes)
+*.psd
+*.procreate
+*.tif

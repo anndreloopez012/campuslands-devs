@@ -1,0 +1,16 @@
+{
+    "autos": [
+        {
+            "marca": "Toyota",
+            "modelo": "Corolla",
+            "anio": 2020,
+            "color": "Blanco"
+        },
+        {
+            "marca": "Honda",
+            "modelo": "Civic",
+            "anio": 2019,
+            "color": "Negro"
+        }
+    ]
+}

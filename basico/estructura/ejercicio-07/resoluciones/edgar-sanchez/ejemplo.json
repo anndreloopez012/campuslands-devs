@@ -1,0 +1,19 @@
+{
+    "id": "book-001",
+    "slug": "cien-anos-de-soledad",
+    "title": "Cien años de soledad",
+    "author": {
+      "name": "Gabriel García Márquez",
+      "nationality": "Colombiana"
+    },
+    "publication_year": 1967,
+    "genres": [
+      "Realismo mágico",
+      "Ficción literaria"
+    ],
+    "isbn": "978-0307474728",
+    "cover_image": "cien-anos-de-soledad.webp",
+    "summary": "La historia de la familia Buendía a lo largo de siete generaciones en el pueblo ficticio de Macondo.",
+    "status": "read",
+    "rating_average": 4.9
+  }

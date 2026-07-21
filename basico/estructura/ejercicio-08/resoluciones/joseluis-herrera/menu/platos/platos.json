@@ -1,0 +1,79 @@
+{
+  "menu": [
+    {
+      "categoria": "Entradas",
+      "platos": [
+        {
+          "id": "e1a1b2c3-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+          "nombre": "Tequeños de Queso",
+          "descripcion": "6 deditos de masa crujiente rellenos de queso blanco derretido, acompañados de salsa tártara de la casa.",
+          "precio_base": 6.50,
+          "disponible": true,
+          "alergenos": ["gluten", "lacteos"],
+          "es_vegetariano": true,
+          "tiempo_preparacion_min": 10
+        },
+        {
+          "id": "e2a2b3c4-5d6e-7f8g-9h0i-1j2k3l4m5n6o",
+          "nombre": "Carpaccio de Res",
+          "descripcion": "Láminas finas de lomo de res, alcaparras, lascas de queso parmesano y aderezo de limón con aceite de oliva.",
+          "precio_base": 11.00,
+          "disponible": true,
+          "alergenos": ["lacteos"],
+          "es_vegetariano": false,
+          "tiempo_preparacion_min": 8
+        }
+      ]
+    },
+    {
+      "categoria": "Platos Fuertes",
+      "platos": [
+        {
+          "id": "f1b1c2d3-4e5f-6g7h-8i9j-0k1l2m3n4o5p",
+          "nombre": "Hamburguesa Tech-Burger",
+          "descripcion": "200g de carne de res premium, queso cheddar fundido, tocino crujiente, cebolla caramelizada y salsa secreta en pan brioche. Incluye papas fritas.",
+          "precio_base": 14.90,
+          "disponible": true,
+          "alergenos": ["gluten", "lacteos", "huevos"],
+          "es_vegetariano": false,
+          "tiempo_preparacion_min": 15
+        },
+        {
+          "id": "f2b2c3d4-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+          "nombre": "Risotto de Hongos Silvestres",
+          "descripcion": "Arroz arborio cremoso cocinado con un mix de champiñones, setas, vino blanco y un toque de aceite de trufa blanca.",
+          "precio_base": 16.50,
+          "disponible": true,
+          "alergenos": ["lacteos", "sulfitos"],
+          "es_vegetariano": true,
+          "tiempo_preparacion_min": 20
+        },
+        {
+          "id": "f3b3c4d5-6e7f-8g9h-0i1j-2k3l4m5n6o7p",
+          "nombre": "Salmón al Glaseado de Maracuyá",
+          "descripcion": "Filete de salmón fresco a la plancha con una reducción dulce de maracuyá, servido sobre una cama de puré de camote (batata).",
+          "precio_base": 19.00,
+          "disponible": false,
+          "alergenos": ["pescado"],
+          "es_vegetariano": false,
+          "tiempo_preparacion_min": 18
+        }
+      ]
+    },
+    {
+      "categoria": "Postres",
+      "platos": [
+        {
+          "id": "p1c1d2e3-4f5g-6h7i-8j9k-0l1m2n3o4p5q",
+          "nombre": "Volcán de Chocolate",
+          "descripcion": "Bizcocho de chocolate caliente con centro líquido fundido, acompañado de una bola de helado de vainilla clásica.",
+          "precio_base": 7.00,
+          "disponible": true,
+          "alergenos": ["gluten", "lacteos", "huevos"],
+          "es_vegetariano": true,
+          "tiempo_preparacion_min": 12
+        }
+      ]
+    }
+  ]
+}

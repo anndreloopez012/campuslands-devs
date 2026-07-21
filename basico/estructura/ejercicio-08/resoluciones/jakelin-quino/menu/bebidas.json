@@ -1,0 +1,4 @@
+[
+  { "id": 1, "nombre": "Coca-Cola", "precio": 3000, "tamano": "500ml" },
+  { "id": 2, "nombre": "Jugo Natural", "precio": 4000, "tamano": "400ml" }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Antigua Guatemala",
+    "pais": "Guatemala",
+    "precioPorNoche": 45,
+    "calificacion": 4.8,
+    "categoria": "cultural"
+  },
+  {
+    "id": 2,
+    "nombre": "Semuc Champey",
+    "pais": "Guatemala",
+    "precioPorNoche": 30,
+    "calificacion": 4.9,
+    "categoria": "naturaleza"
+  },
+  {
+    "id": 3,
+    "nombre": "Cartagena de Indias",
+    "pais": "Colombia",
+    "precioPorNoche": 60,
+    "calificacion": 4.6,
+    "categoria": "playa"
+  },
+  {
+    "id": 4,
+    "nombre": "Cusco",
+    "pais": "Peru",
+    "precioPorNoche": 38,
+    "calificacion": 4.7,
+    "categoria": "cultural"
+  },
+  {
+    "id": 5,
+    "nombre": "Destino sin resenas",
+    "pais": "Honduras",
+    "precioPorNoche": 25,
+    "calificacion": 0,
+    "categoria": "naturaleza"
+  }
+]

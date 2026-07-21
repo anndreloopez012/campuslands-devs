@@ -1,0 +1,6 @@
+{
+  "nombre_simulacion": "Gran Premio Urbano",
+  "modo_clima": "Dinámico",
+  "vueltas_totales": 15,
+  "permitir_reabastecimiento": false
+}

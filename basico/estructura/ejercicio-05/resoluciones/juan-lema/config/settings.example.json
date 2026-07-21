@@ -1,0 +1,9 @@
+{
+  "nombreTaller": "Taller Motos El Camino",
+  "horario": {
+    "apertura": "08:00",
+    "cierre": "18:00"
+  },
+  "estadosOrdenValidos": ["recibida", "en_proceso", "entregada"],
+  "mecanicosActivos": ["Ana Gomez", "Carlos Us"]
+}
