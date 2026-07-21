@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legacy_raw_records",
+  "info": {
+    "singularName": "legacy-raw-record",
+    "pluralName": "legacy-raw-records",
+    "displayName": "Legacy Raw Record",
+    "description": "Registro crudo heredado"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "legacy_source_id": {
+      "type": "integer"
+    },
+    "legacy_table": {
+      "type": "string"
+    },
+    "legacy_pk": {
+      "type": "json"
+    },
+    "raw_data": {
+      "type": "json"
+    },
+    "migrated_at": {
+      "type": "datetime"
+    },
+    "validation_status": {
+      "type": "string"
+    }
+  }
+}

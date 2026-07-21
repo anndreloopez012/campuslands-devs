@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_requests",
+  "info": {
+    "singularName": "case-request",
+    "pluralName": "case-requests",
+    "displayName": "CaseRequest",
+    "description": "Solicitud o tramite central de la OMS. Reemplaza las tablas principales por tipo de tramite."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "legacy_source_id": {
+      "type": "integer",
+      "required": true
+    },
+    "service_line_id": {
+      "type": "integer"
+    },
+    "request_number": {
+      "type": "string",
+      "required": true
+    },
+    "procedure_code": {
+      "type": "string"
+    },
+    "status_code": {
+      "type": "string"
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "required": true,
+      "default": "active"
+    },
+    "current_stage": {
+      "type": "string"
+    },
+    "applicant_person_id": {
+      "type": "string"
+    },
+    "applicant_organization_id": {
+      "type": "string"
+    },
+    "assigned_user_id": {
+      "type": "string"
+    },
+    "submitted_at": {
+      "type": "datetime"
+    },
+    "updated_at": {
+      "type": "datetime"
+    },
+    "closed_at": {
+      "type": "datetime"
+    },
+    "legacy_table": {
+      "type": "string",
+      "required": true
+    },
+    "legacy_pk": {
+      "type": "json",
+      "required": true
+    },
+    "core_payload": {
+      "type": "json",
+      "required": true
+    },
+    "form_payload": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

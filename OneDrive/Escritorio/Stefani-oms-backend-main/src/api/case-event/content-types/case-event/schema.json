@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_events",
+  "info": {
+    "singularName": "case-event",
+    "pluralName": "case-events",
+    "displayName": "CaseEvent",
+    "description": "Historial unificado de estados, etapas, cambios, mensajes y auditoria."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "case_request_id": {
+      "type": "string",
+      "required": true
+    },
+    "event_type": {
+      "type": "string",
+      "required": true
+    },
+    "status_code": {
+      "type": "string"
+    },
+    "stage_code": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "actor_user_id": {
+      "type": "string"
+    },
+    "occurred_at": {
+      "type": "datetime"
+    },
+    "payload": {
+      "type": "json",
+      "required": true
+    },
+    "legacy_source_id": {
+      "type": "integer"
+    },
+    "legacy_table": {
+      "type": "string"
+    },
+    "legacy_pk": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
