@@ -1,0 +1,23 @@
+[
+  {
+    "id": "b001",
+    "nombre": "Horchata (16 oz)",
+    "categoria": "bebida",
+    "precio": 12.00,
+    "fotoRef": "assets/photos/horchata.jpg"
+  },
+  {
+    "id": "b002",
+    "nombre": "Limonada con menta (16 oz)",
+    "categoria": "bebida",
+    "precio": 14.00,
+    "fotoRef": "assets/photos/limonada-menta.jpg"
+  },
+  {
+    "id": "b003",
+    "nombre": "Gaseosa (12 oz)",
+    "categoria": "bebida",
+    "precio": 8.00,
+    "fotoRef": "assets/photos/gaseosa.jpg"
+  }
+]

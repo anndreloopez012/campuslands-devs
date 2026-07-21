@@ -1,0 +1,23 @@
+[
+  {
+    "id": "p001",
+    "nombre": "Pupusas revueltas (3 unidades)",
+    "categoria": "plato",
+    "precio": 25.00,
+    "fotoRef": "assets/photos/pupusas-revueltas.jpg"
+  },
+  {
+    "id": "p002",
+    "nombre": "Tacos de carne asada (4 unidades)",
+    "categoria": "plato",
+    "precio": 35.00,
+    "fotoRef": "assets/photos/tacos-carne.jpg"
+  },
+  {
+    "id": "p003",
+    "nombre": "Hamburguesa clasica",
+    "categoria": "plato",
+    "precio": 40.00,
+    "fotoRef": "assets/photos/hamburguesa-clasica.jpg"
+  }
+]

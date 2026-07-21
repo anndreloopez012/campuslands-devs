@@ -1,0 +1,12 @@
+[
+  {
+    "id": "RM",
+    "nombre": "Real Madrid",
+    "estadio": "Santiago Bernabéu"
+  },
+  {
+    "id": "FCB",
+    "nombre": "FC Barcelona",
+    "estadio": "Camp Nou"
+  }
+]

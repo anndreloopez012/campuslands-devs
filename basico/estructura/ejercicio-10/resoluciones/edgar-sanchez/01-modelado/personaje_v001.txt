@@ -1,0 +1,9 @@
+======================================================================
+PIPELINE 3D - ARCHIVO DE TRABAJO (MODELADO)
+======================================================================
+- Asset: Personaje Principal (Hero_Character)
+- Departamento: Modelado / Escultura Digital
+- Estado: En progreso (Bloqueo de proporciones y topologia basica)
+- Version: v001
+- Modificado por: Allison Vargas
+======================================================================

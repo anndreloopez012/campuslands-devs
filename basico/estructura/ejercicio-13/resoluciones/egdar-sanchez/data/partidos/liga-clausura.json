@@ -1,0 +1,24 @@
+[
+  {
+    "id": "partido-101",
+    "fecha": "2025-01-12",
+    "jornada": 1,
+    "local": "cobán-imperial",
+    "visitante": "comunicaciones-fc",
+    "goles_local": 1,
+    "goles_visitante": 3,
+    "estadio": "Estadio José Ángel Rossi Asturias",
+    "estado": "finalizado"
+  },
+  {
+    "id": "partido-102",
+    "fecha": "2025-01-13",
+    "jornada": 1,
+    "local": "deportivo-petapa",
+    "visitante": "malacateco-fc",
+    "goles_local": 2,
+    "goles_visitante": 2,
+    "estadio": "Estadio Julio Armando Cerna Roldán",
+    "estado": "finalizado"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "c001",
+    "nombre": "Combo Pupusero",
+    "categoria": "combo",
+    "platoId": "p001",
+    "bebidaId": "b001",
+    "precioNormal": 37.00,
+    "precioCombo": 32.00
+  },
+  {
+    "id": "c002",
+    "nombre": "Combo Taquero",
+    "categoria": "combo",
+    "platoId": "p002",
+    "bebidaId": "b003",
+    "precioNormal": 43.00,
+    "precioCombo": 38.00
+  }
+]

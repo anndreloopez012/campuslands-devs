@@ -1,0 +1,10 @@
+{
+  "id": "VEH-001",
+  "modelo": "Chiron Super Sport",
+  "marca": "Bugatti",
+  "especificaciones": {
+    "potencia_hp": 1600,
+    "velocidad_max_kmh": 440,
+    "aceleracion_0_100": 2.4
+  }
+}
