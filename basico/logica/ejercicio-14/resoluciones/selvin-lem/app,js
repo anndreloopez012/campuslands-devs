@@ -1,0 +1,80 @@
+const compuestos = [
+  {
+    nombre: "Agua (H2O)",
+    componentes: [
+      { simbolo: "H", gramos: 2 },
+      { simbolo: "O", gramos: 16 },
+    ],
+  },
+  {
+    nombre: "Sal (NaCl)",
+    componentes: [
+      { simbolo: "Na", gramos: 23 },
+      { simbolo: "Cl", gramos: 0 },
+    ],
+  },
+  {
+    nombre: "Dioxido de carbono (CO2)",
+    componentes: [
+      { simbolo: "C", gramos: 12 },
+      { simbolo: "O", gramos: 32 },
+    ],
+  },
+  {
+    nombre: "Mezcla incompleta",
+    componentes: [
+      { simbolo: "X", gramos: -5 },
+      { simbolo: "Y", gramos: 4 },
+    ],
+  },
+];
+
+function esComponenteValido(componente) {
+  return componente.gramos > 0;
+}
+
+function esCompuestoCompleto(compuesto) {
+  return compuesto.componentes.every(esComponenteValido);
+}
+
+function calcularMasaTotal(componentes) {
+  return componentes.reduce((acumulado, componente) => acumulado + componente.gramos, 0);
+}
+
+function procesarCompuestos(listaCompuestos) {
+  const completos = [];
+  const incompletos = [];
+
+  for (const compuesto of listaCompuestos) {
+    const completo = esCompuestoCompleto(compuesto);
+    const masaTotal = calcularMasaTotal(compuesto.componentes);
+
+    const resultado = {
+      nombre: compuesto.nombre,
+      componentes: compuesto.componentes,
+      masaTotal,
+    };
+
+    if (completo) {
+      completos.push(resultado);
+    } else {
+      const componentesInvalidos = compuesto.componentes.filter(
+        (componente) => !esComponenteValido(componente)
+      );
+      incompletos.push({
+        ...resultado,
+        componentesInvalidos,
+      });
+    }
+  }
+
+  return { completos, incompletos };
+}
+
+const { completos, incompletos } = procesarCompuestos(compuestos);
+
+console.log("Compuestos completos:");
+console.log(completos);
+
+console.log("\nCompuestos incompletos:");
+console.log(incompletos);
