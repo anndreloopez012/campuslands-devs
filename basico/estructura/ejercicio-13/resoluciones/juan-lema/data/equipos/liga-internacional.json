@@ -1,0 +1,6 @@
+[
+  { "id": "LI01", "nombre": "Real Norte", "ciudad": "Ciudad de Mexico" },
+  { "id": "LI02", "nombre": "Atletico Sur", "ciudad": "Bogota" },
+  { "id": "LI03", "nombre": "Union Andina", "ciudad": "Lima" },
+  { "id": "LI04", "nombre": "Estrella Caribe", "ciudad": "San Jose" }
+]
