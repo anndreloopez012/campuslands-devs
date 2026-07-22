@@ -1,0 +1,22 @@
+[
+  {
+    "id": "p01",
+    "nombre": "Kaito Ryo",
+    "vehiculoId": "v01"
+  },
+  {
+    "id": "p02",
+    "nombre": "Lucia Ferreira",
+    "vehiculoId": "v02"
+  },
+  {
+    "id": "p03",
+    "nombre": "Marcus Steel",
+    "vehiculoId": "v03"
+  },
+  {
+    "id": "p04",
+    "nombre": "Diego Salazar",
+    "vehiculoId": null
+  }
+]
