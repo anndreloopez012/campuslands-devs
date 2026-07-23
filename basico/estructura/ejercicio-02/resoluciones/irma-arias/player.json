@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Faker",
+    "rol": "Mid Laner",
+    "kda": "4.8",
+    "puntuacionRanking": 2850
+  },
+  {
+    "id": 2,
+    "nombre": "Chovy",
+    "rol": "Mid Laner",
+    "kda": "5.2",
+    "puntuacionRanking": 2910
+  },
+  {
+    "id": 3,
+    "nombre": "Ruler",
+    "rol": "ADC",
+    "kda": "4.1",
+    "puntuacionRanking": 2720
+  }
+]
