@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "marca": "Rolls-Royce",
+    "modelo": "Phantom",
+    "anio": 2026,
+    "precioUSD": 460000,
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "marca": "Bentley",
+    "modelo": "Continental GT",
+    "anio": 2025,
+    "precioUSD": 240000,
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "marca": "Lamborghini",
+    "modelo": "Revuelto",
+    "anio": 2026,
+    "precioUSD": 600000,
+    "disponible": false
+  }
+]
