@@ -1,0 +1,8 @@
+{
+  "idLibro": "scifi-001",
+  "titulo": "Dune",
+  "autor": "Frank Herbert",
+  "anioPublicacion": 1965,
+  "subgenero": "Opera Espacial",
+  "disponiblePrestamo": true
+}
