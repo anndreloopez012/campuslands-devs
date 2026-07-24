@@ -1,7 +1,24 @@
-{
-    "id": 1,
-    "titulo": "Dune",
-    "autor": "Frank Herbert",
-    "año": 1965,
-    "genero": "Ciencia Ficción"
-}
+
+[
+  {
+    "idDestino": 1,
+    "nombreCiudad": "Cartagena de Indias",
+    "pais": "Colombia",
+    "precioPorNocheUSD": 120,
+    "cuposDisponibles": 15
+  },
+  {
+    "idDestino": 2,
+    "nombreCiudad": "Cusco",
+    "pais": "Perú",
+    "precioPorNocheUSD": 95,
+    "cuposDisponibles": 8
+  },
+  {
+    "idDestino": 3,
+    "nombreCiudad": "Cancún",
+    "pais": "México",
+    "precioPorNocheUSD": 180,
+    "cuposDisponibles": 0
+  }
+]
