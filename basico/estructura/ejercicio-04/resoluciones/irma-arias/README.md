@@ -1,13 +1,30 @@
 
-# Catálogo de Autos de Lujo
+# Ejercicio 004: Catálogo de Autos de Lujo
 
-**Estudiante:** Irma Arias
+* **Estudiante:** Irma Yaneht Arias García
+* **Temática:** Organización y estructuración de un proyecto web/backend para un catálogo de vehículos de alta gama.
 
-## Razonamiento
-He diseñado esta estructura modular para separar los datos (en la carpeta `data`) de la lógica de programación (en `src`). Esto hace que el proyecto sea profesional y fácil de escalar: si mañana necesitamos agregar más autos, solo editamos el archivo JSON sin tocar el código.
+## 📌 Razonamiento y Proceso
+1. **Análisis de Requisitos:** Se organizó un entorno modular separando los datos estructurados en formato JSON, los recursos multimedia en carpetas específicas, los scripts lógicos en `src` y la documentación técnica.
+2. **Convenciones para Nombrar Imágenes:**
+   - Formato obligatorio: `marca-modelo-angulo.jpg` (Ejemplo: `rollsroyce-phantom-frontal.jpg`, `bentley-continental-lateral.jpg`). Se utiliza minúsculas y guiones medios para evitar conflictos en servidores.
+3. **Lista de Verificación de Validación:**
+   - Verificar que no existan precios negativos o en cero en el archivo `autos.json`.
+   - Comprobar que los recursos gráficos cumplan con la nomenclatura establecida.
+   - Validar que los scripts de renderizado manejen correctamente los estados de disponibilidad.
 
-## Lista de Validación
-- [x] Estructura de carpetas creada correctamente.
-- [x] Sin archivos `.gitkeep` (respetando las reglas del ejercicio).
-- [x] Lógica de validación de precios implementada en `main.js`.
-- [x] Convenciones de archivos documentadas.
+## 🗂️ Árbol de Carpetas
+
+basico/
+└── estructura/
+    └── ejercicio-04/
+        └── resoluciones/
+            └── irma-arias/
+                ├── datos/
+                │   └── autos.json
+                ├── activos/
+                │   └── coches/
+                ├── documentos/
+                ├── src/
+                │   └── render.js
+                └── README.md
