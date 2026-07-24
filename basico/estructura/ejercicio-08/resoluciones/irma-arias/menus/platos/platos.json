@@ -1,0 +1,23 @@
+[
+  {
+    "idPlato": 1,
+    "nombre": "Hamburguesa Urbana Clásica",
+    "categoria": "Comida Rápida",
+    "precioUSD": 12.50,
+    "disponible": true
+  },
+  {
+    "idPlato": 2,
+    "nombre": "Perro Caliente Artesanal",
+    "categoria": "Comida Rápida",
+    "precioUSD": 8.00,
+    "disponible": true
+  },
+  {
+    "idPlato": 3,
+    "nombre": "Salchipapa Especial",
+    "categoria": "Frituras",
+    "precioUSD": 10.00,
+    "disponible": false
+  }
+]
