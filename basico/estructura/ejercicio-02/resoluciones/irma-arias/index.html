@@ -1,15 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking Esports - MOBA</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-    <h1>Ranking MOBA</h1>
-    <div id="app"></div>
+    <header>
+        <h1>Clasificación de Jugadores - MOBA</h1>
+        <p>Panel de control y ranking de rendimiento competitivo</p>
+    </header>
+
+    <main>
+        <section id="ranking-container">
+            <!-- La tabla de clasificación se cargará dinámicamente mediante JavaScript -->
+            <table id="tabla-ranking">
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Jugador</th>
+                        <th>Rol</th>
+                        <th>KDA</th>
+                        <th>Puntuación</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo-tabla">
+                    <!-- Datos inyectados por app.js -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
     <script src="js/app.js"></script>
 </body>
-
 </html>
