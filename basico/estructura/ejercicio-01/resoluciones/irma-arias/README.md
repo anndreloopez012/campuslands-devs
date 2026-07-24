@@ -1,44 +1,28 @@
-Ejercicio 01: Estructura de Proyecto Indie
-Estudiante: Irma Yaneht Arias Garcia
 
-Contexto: Organización de un proyecto de videojuegos de acción y aventura.
+# Ejercicio 001: Estructura de Estudio - Videojuegos de Acción y Aventura
 
-Descripción del Proyecto
-Este proyecto establece una estructura de 
-archivos ordenada y escalable para el desarrollo 
-de un videojuego. El objetivo es separar las
-responsabilidades del código, los recursos 
-multimedia y la documentación, facilitando así
-el trabajo colaborativo.
+* **Estudiante:** Irma Yaneht Arias García
+* **Temática:** Organización de proyecto para videojuegos de acción y aventura.
 
-structura de Directorios
-Plaintext
-irma-arias/
-├── src/           # Código fuente del videojuego (scripts y lógica).
-├── activos/       # Recursos multimedia del juego.
-│   ├── imagenes/  # Sprites, texturas y assets visuales.
-│   ├── audio/     # Efectos de sonido y banda sonora.
-│   └── mapas/     # Archivos de diseño de niveles y layouts.
-├── documentos/    # Especificaciones técnicas, GDD y manuales.
-├── pruebas/       # Scripts de testing y validación.
-└── README.md      # Este archivo de documentación.
+## 📌 Razonamiento y Proceso (¿Cómo se pensó el problema?)
+1. **Análisis de Requisitos:** Se necesitaba preparar una estructura ordenada para un proyecto de videojuegos de acción y aventura, separando adecuadamente el código fuente, los recursos multimedia y la documentación técnica.
+2. **Estrategia de Organización:** 
+   - Se crearon los directorios en minúsculas y sin espacios tal como lo exige el estándar del proyecto.
+   - La carpeta de `activos` se subdividió en `imagenes`, `audio` y `mapas` para mantener un control modular de los recursos gráficos y sonoros.
+   - Se añadió un archivo `.gitkeep` en la carpeta de `pruebas` para asegurar que el control de versiones mantenga la estructura de carpetas vacías de manera correcta.
 
-Razonamiento
-Se utilizó una jerarquía de carpetas lógica para 
-garantizar que cada tipo de activo tenga su 
-lugar definido. Se implementaron archivos .
-gitkeep en cada directorio para asegurar que la 
-estructura se mantenga en el control de 
-versiones de Git, incluso antes de añadir 
-contenido funcional.
+## 🗂️ Árbol de Carpetas de la Solución
 
-Validación
-Convención: Todos los nombres de carpetas están 
-en minúsculas.
-
-Integridad: Se han incluido los archivos .
-gitkeep necesarios en directorios vacíos.
-
-Ubicación: El proyecto se encuentra bajo la ruta
- basico/estructura/ejercicio-01/resoluciones/irma-arias/.
-
+basico/
+└── estructura/
+    └── ejercicio-01/
+        └── resoluciones/
+            └── irma-arias/
+                ├── src/                  <-- Código fuente del proyecto
+                ├── activos/
+                │   ├── imagenes/         <-- Texturas, sprites y elementos visuales
+                │   ├── audio/            <-- Bandas sonoras y efectos de sonido
+                │   └── mapas/            <-- Diseños de niveles y mundos
+                ├── documentos/           <-- Guías y manuales técnicos
+                ├── pruebas/              <-- Casos de testeo (.gitkeep)
+                └── README.md             <-- Documentación y explicación del desarrollo
